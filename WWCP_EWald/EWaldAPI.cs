@@ -1,7 +1,24 @@
-﻿
+﻿/*
+ * Copyright (c) 2014-2016 GraphDefined GmbH <achim.friedland@graphdefined.com>
+ * This file is part of the Open Charging Cloud API
+ *
+ * Licensed under the Affero GPL license, Version 3.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.gnu.org/licenses/agpl.html
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 #region Usings
 
 using System;
+using System.Linq;
 using System.Threading;
 using System.Net.Security;
 using System.Threading.Tasks;
@@ -39,7 +56,6 @@ namespace org.GraphDefined.WWCP.EWald
         public RemoteCertificateValidationCallback  RemoteCertificateValidator  { get; }
         public String                               URIPrefix                   { get; }
         public DNSClient                            DNSClient                   { get; }
-//        public String                               APIKey                      { get; }
 
         #endregion
 
@@ -51,17 +67,16 @@ namespace org.GraphDefined.WWCP.EWald
             this.Hostname                    = "api.e-wald.eu";
             this.TCPPort                     = IPPort.Parse(80);
             this.VirtualHost                 = "api.e-wald.eu";
-            this.RemoteCertificateValidator  = (a, b, c, d) => true;
+            this.RemoteCertificateValidator  = null;
             this.URIPrefix                   = "";
             this.DNSClient                   = new DNSClient(SearchForIPv6DNSServers: false);
-//            this.APIKey                      = "28d9139000abf9a49d6c6e4ece1e3b45";
 
         }
 
         #endregion
 
 
-        public async Task<HTTPResponse<IEnumerable<JObject>>>
+        public async Task<HTTPResponse<IEnumerable<ChargingStation>>>
 
             GetChargingStations(CancellationToken?  CancellationToken = null,
                                 TimeSpan?           QueryTimeout      = null)
@@ -94,23 +109,26 @@ namespace org.GraphDefined.WWCP.EWald
                 }
                 catch (Exception e)
                 {
-                    return new HTTPResponse<IEnumerable<JObject>>(response, e);
+                    return new HTTPResponse<IEnumerable<ChargingStation>>(response,
+                                                                          new Exception("Could not parse the returned GeoJSON!", e));
                 }
 
                 try
                 {
-                    stations = (JSON["features"] as JArray).SafeSelect(aa => aa as JObject);
+                    stations = (JSON["features"] as JArray).SafeSelect(feature => feature as JObject);
                 }
                 catch (Exception e)
                 {
-                    return new HTTPResponse<IEnumerable<JObject>>(response, e);
+                    return new HTTPResponse<IEnumerable<ChargingStation>>(response,
+                                                                          new Exception("Could not extract the features from the returned GeoJSON!", e));
                 }
 
-                return new HTTPResponse<IEnumerable<JObject>>(response, stations);
+                return new HTTPResponse<IEnumerable<ChargingStation>>(response,
+                                                                      stations.SelectIgnoreErrors(ChargingStation.ParseJSON));
 
             }
 
-            return new HTTPResponse<IEnumerable<JObject>>(response, true);
+            return new HTTPResponse<IEnumerable<ChargingStation>>(response, true);
 
         }
 
