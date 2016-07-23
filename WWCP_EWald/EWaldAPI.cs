@@ -65,9 +65,9 @@ namespace org.GraphDefined.WWCP.EWald
         {
 
             this.Hostname                    = "api.e-wald.eu";
-            this.TCPPort                     = IPPort.Parse(80);
+            this.TCPPort                     = IPPort.Parse(443);
             this.VirtualHost                 = "api.e-wald.eu";
-            this.RemoteCertificateValidator  = null;
+            this.RemoteCertificateValidator  = (sender, certificate, chain, policyerrors) => true;
             this.URIPrefix                   = "";
             this.DNSClient                   = new DNSClient(SearchForIPv6DNSServers: false);
 
@@ -83,16 +83,16 @@ namespace org.GraphDefined.WWCP.EWald
 
         {
 
-            var response = await new HTTPClient(Hostname,
-                                                TCPPort,
-                                                RemoteCertificateValidator,
-                                                DNSClient).
+            var response = await new HTTPSClient(Hostname,
+                                                 RemoteCertificateValidator,
+                                                 RemotePort: TCPPort,
+                                                 DNSClient:  DNSClient).
 
-                                 Execute(client => client.POST(URIPrefix + "/chargers/",
-                                                               requestbuilder => {
-                                                                   requestbuilder.Host         = VirtualHost;
-                                                                   requestbuilder.Accept.Add(HTTPContentType.JSON_UTF8);
-                                                               }),
+                                 Execute(client => client.GET(URIPrefix + "/chargers/",
+                                                              requestbuilder => {
+                                                                  requestbuilder.Host         = VirtualHost;
+                                                                  requestbuilder.Accept.Add(HTTPContentType.JSON_UTF8);
+                                                              }),
 
                                          Timeout:           QueryTimeout.HasValue ? QueryTimeout : DefaultQueryTimeout,
                                          CancellationToken: CancellationToken);
