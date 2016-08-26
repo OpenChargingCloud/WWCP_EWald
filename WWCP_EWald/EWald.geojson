@@ -7,8 +7,7 @@
         "coordinates": [ 13.378601074219, 48.728978093593 ]
       },
       "type": "Feature",
-      "properties":
-       {
+      "properties": {
         "status": "NoError",
         "marker-color": "#44B6AE",
         "uuid": "5e220377-d179-11e4-a755-005056b332c9",
@@ -146,7 +145,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Eggenfelden",
-          "street": "Pfarrkirchener Stra\u00dfe 14 ",
+          "street": "Pfarrkirchener Straﬂe 14 ",
           "zip": "84307",
           "country": "Deutschland"
         },
@@ -267,16 +266,9 @@
             },
             "id": 1530,
             "label": "Schuko rechts"
-          },
-          {
-            "evseid": null,
-            "status": "Available",
-            "type": [ ],
-            "id": 2072,
-            "label": null
           }
         ],
-        "connectors_free": 5,
+        "connectors_free": 4,
         "address": {
           "city": "Perlesreut",
           "street": "Unterer Markt 3",
@@ -288,7 +280,7 @@
         "model": "LS-Public 12 2x2 (r1)",
         "manufacturer": "Technagon GmbH",
         "status_color": "#44B6AE",
-        "connectors_total": 7
+        "connectors_total": 6
       }
     },
     {
@@ -307,7 +299,7 @@
         "connectors": [
           {
             "evseid": "DE*666*E1000150",
-            "status": "Available",
+            "status": "Unavailable",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -323,7 +315,7 @@
           },
           {
             "evseid": "DE*666*E1000148",
-            "status": "Available",
+            "status": "Unavailable",
             "type": {
               "max_phase": 1,
               "max_power_string": "3,7 kW",
@@ -370,14 +362,14 @@
             "label": "Schuko links"
           }
         ],
-        "connectors_free": 4,
+        "connectors_free": 2,
         "address": {
           "city": "Thyrnau ",
           "street": "Schulweg 4",
           "zip": "94136",
           "country": "Deutschland"
         },
-        "connectors_faulted": 0,
+        "connectors_faulted": 2,
         "status_icon": "fi-electric-station",
         "model": "LS-Public 12 2x2 (r1)",
         "manufacturer": "Technagon GmbH",
@@ -396,7 +388,7 @@
         "marker-color": "#44B6AE",
         "uuid": "5e222e30-d179-11e4-a755-005056b332c9",
         "online_status": "online",
-        "title": "Rotthalm\u00fcnster",
+        "title": "Rotthalm¸nster",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
@@ -433,7 +425,7 @@
           },
           {
             "evseid": "DE*666*E1000094",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -449,7 +441,7 @@
           },
           {
             "evseid": "DE*666*E1000092",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 1,
               "max_power_string": "3,7 kW",
@@ -464,10 +456,10 @@
             "label": "Schuko rechts"
           }
         ],
-        "connectors_free": 2,
+        "connectors_free": 4,
         "address": {
-          "city": "Rotthalm\u00fcnster",
-          "street": "Parkplatz Br\u00e4ugasse",
+          "city": "Rotthalm¸nster",
+          "street": "Parkplatz Br‰ugasse",
           "zip": "94094",
           "country": "Deutschland"
         },
@@ -593,7 +585,7 @@
         "connectors_free": 6,
         "address": {
           "city": "Eging a.See",
-          "street": "M\u00fchlbergstra\u00dfe 5",
+          "street": "M¸hlbergstraﬂe 5",
           "zip": "94535",
           "country": "Deutschland"
         },
@@ -616,7 +608,7 @@
         "marker-color": "#44B6AE",
         "uuid": "5e22380b-d179-11e4-a755-005056b332c9",
         "online_status": "online",
-        "title": "F\u00fcrstenstein",
+        "title": "F¸rstenstein",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
@@ -686,8 +678,8 @@
         ],
         "connectors_free": 4,
         "address": {
-          "city": "F\u00fcrstenstein",
-          "street": "Vilshofener Stra\u00dfe 9",
+          "city": "F¸rstenstein",
+          "street": "Vilshofener Straﬂe 9",
           "zip": "94538",
           "country": "Deutschland"
         },
@@ -935,7 +927,7 @@
           },
           {
             "evseid": "DE*666*E1000073",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -951,7 +943,7 @@
           },
           {
             "evseid": "DE*666*E1000071",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 1,
               "max_power_string": "3,7 kW",
@@ -1030,7 +1022,7 @@
             "label": "Schuko rechts"
           }
         ],
-        "connectors_free": 6,
+        "connectors_free": 8,
         "address": {
           "city": "Aldersbach",
           "street": "Klosterplatz",
@@ -1093,7 +1085,7 @@
           },
           {
             "evseid": "DE*666*E1000166",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -1109,7 +1101,7 @@
           },
           {
             "evseid": "DE*666*E1000165",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 1,
               "max_power_string": "3,7 kW",
@@ -1188,10 +1180,10 @@
             "label": "Typ 2 Satellit II"
           }
         ],
-        "connectors_free": 6,
+        "connectors_free": 8,
         "address": {
           "city": "Plattling",
-          "street": "Friedenstra\u00dfe 2",
+          "street": "Friedenstraﬂe 2",
           "zip": "94447",
           "country": "Deutschland"
         },
@@ -1317,7 +1309,7 @@
         "connectors_free": 4,
         "address": {
           "city": "Vilshofen an der Donau",
-          "street": "Bahnhofstra\u00dfe 4",
+          "street": "Bahnhofstraﬂe 4",
           "zip": "94474",
           "country": "Deutschland"
         },
@@ -1443,7 +1435,7 @@
         "connectors_free": 6,
         "address": {
           "city": "Bayerisch Eisenstein",
-          "street": "Brennesstra\u00dfe 431/3",
+          "street": "Brennesstraﬂe 431/3",
           "zip": "94252",
           "country": "Deutschland"
         },
@@ -1471,7 +1463,7 @@
         "connectors": [
           {
             "evseid": "DE*666*E1000063",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -1487,7 +1479,7 @@
           },
           {
             "evseid": "DE*666*E1000061",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 1,
               "max_power_string": "3,7 kW",
@@ -1503,7 +1495,7 @@
           },
           {
             "evseid": "DE*666*E1000062",
-            "status": "Available",
+            "status": "Occupied",
             "type": {
               "max_phase": 1,
               "max_power_string": "3,7 kW",
@@ -1519,7 +1511,7 @@
           },
           {
             "evseid": "DE*666*E1000064",
-            "status": "Available",
+            "status": "Occupied",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -1597,7 +1589,7 @@
         "connectors": [
           {
             "evseid": "DE*666*E1000159",
-            "status": "Unavailable",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -1613,7 +1605,7 @@
           },
           {
             "evseid": "DE*666*E1000157",
-            "status": "Unavailable",
+            "status": "Available",
             "type": {
               "max_phase": 1,
               "max_power_string": "3,7 kW",
@@ -1660,14 +1652,14 @@
             "label": "Schuko rechts"
           }
         ],
-        "connectors_free": 2,
+        "connectors_free": 4,
         "address": {
           "city": "Hunderdorf",
-          "street": "Bahnhofstra\u00dfe 26",
+          "street": "Bahnhofstraﬂe 26",
           "zip": "94336",
           "country": "Deutschland"
         },
-        "connectors_faulted": 2,
+        "connectors_faulted": 0,
         "status_icon": "fi-electric-station",
         "model": "LS-Public 12 2x2 (r1)",
         "manufacturer": "Technagon GmbH",
@@ -1686,7 +1678,7 @@
         "marker-color": "#44B6AE",
         "uuid": "5e225a52-d179-11e4-a755-005056b332c9",
         "online_status": "online",
-        "title": "Neureichenau Bier- und Wohlf\u00fchlhotel ",
+        "title": "Neureichenau Bier- und Wohlf¸hlhotel ",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
@@ -1801,7 +1793,7 @@
           },
           {
             "evseid": "DE*666*E1000366",
-            "status": "Available",
+            "status": "Occupied",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -1816,7 +1808,7 @@
             "label": "Typ2"
           }
         ],
-        "connectors_free": 2,
+        "connectors_free": 1,
         "address": {
           "city": "Kirchroth GSW ",
           "street": "Gewerbegebiet Bachfeld",
@@ -1847,7 +1839,7 @@
         "connectors": [
           {
             "evseid": "DE*666*E1000273",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -1878,7 +1870,7 @@
             "label": "Ladeseite rechts"
           }
         ],
-        "connectors_free": 1,
+        "connectors_free": 2,
         "address": {
           "city": "Patersdorf",
           "street": "Martinsplatz 8",
@@ -1925,7 +1917,7 @@
           },
           {
             "evseid": "DE*666*E1000085",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -1941,7 +1933,7 @@
           },
           {
             "evseid": "DE*666*E1000083",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 1,
               "max_power_string": "3,7 kW",
@@ -1972,10 +1964,10 @@
             "label": "Schuko rechts"
           }
         ],
-        "connectors_free": 2,
+        "connectors_free": 4,
         "address": {
           "city": "Passau",
-          "street": "Gr\u00fcnaustra\u00dfe 2",
+          "street": "Gr¸naustraﬂe 2",
           "zip": "94032",
           "country": "Deutschland"
         },
@@ -1994,16 +1986,16 @@
       },
       "type": "Feature",
       "properties": {
-        "status": "Error",
-        "marker-color": "#000000",
+        "status": "NoError",
+        "marker-color": "#44B6AE",
         "uuid": "5e22ba95-d179-11e4-a755-005056b332c9",
-        "online_status": "unmanaged",
+        "online_status": "online",
         "title": "Plattling Globus",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
             "evseid": "DE*666*E1000171",
-            "status": "Faulted",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -2019,7 +2011,7 @@
           },
           {
             "evseid": "DE*666*E1000169",
-            "status": "Faulted",
+            "status": "Available",
             "type": {
               "max_phase": 1,
               "max_power_string": "3,7 kW",
@@ -2035,7 +2027,7 @@
           },
           {
             "evseid": "DE*666*E1000172",
-            "status": "Faulted",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -2051,7 +2043,7 @@
           },
           {
             "evseid": "DE*666*E1000170",
-            "status": "Faulted",
+            "status": "Available",
             "type": {
               "max_phase": 1,
               "max_power_string": "3,7 kW",
@@ -2064,35 +2056,21 @@
             },
             "id": 1180,
             "label": "Schuko rechts"
-          },
-          {
-            "evseid": null,
-            "status": "Available",
-            "type": [ ],
-            "id": 1359,
-            "label": null
-          },
-          {
-            "evseid": null,
-            "status": "Available",
-            "type": [ ],
-            "id": 1360,
-            "label": null
           }
         ],
-        "connectors_free": 2,
+        "connectors_free": 4,
         "address": {
           "city": "Plattling Globus",
-          "street": "Friedenstra\u00dfe 2",
+          "street": "Friedenstraﬂe 2",
           "zip": "94447",
           "country": "Deutschland"
         },
-        "connectors_faulted": 4,
+        "connectors_faulted": 0,
         "status_icon": "fi-electric-station",
         "model": "LS-Public 12 2x2 (r1)",
         "manufacturer": "Technagon GmbH",
-        "status_color": "#000000",
-        "connectors_total": 6
+        "status_color": "#44B6AE",
+        "connectors_total": 4
       }
     },
     {
@@ -2111,7 +2089,7 @@
         "connectors": [
           {
             "evseid": "DE*666*E1000183",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -2127,7 +2105,7 @@
           },
           {
             "evseid": "DE*666*E1000184",
-            "status": "Available",
+            "status": "Occupied",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -2170,7 +2148,7 @@
         "online_status": "unmanaged",
         "title": "Hartmanice",
         "operator": { "name": "E-Wald GmbH" },
-        "connectors": [ ],
+        "connectors": [],
         "connectors_free": 0,
         "address": {
           "city": "Hartmanice",
@@ -2218,7 +2196,7 @@
           },
           {
             "evseid": "DE*666*E1000186",
-            "status": "Available",
+            "status": "Occupied",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -2233,10 +2211,10 @@
             "label": "Ladeseite rechts"
           }
         ],
-        "connectors_free": 1,
+        "connectors_free": 0,
         "address": {
           "city": "Straubing Landratsamt",
-          "street": "Leutnerstra\u00dfe 15",
+          "street": "Leutnerstraﬂe 15",
           "zip": "94315",
           "country": "Deutschland"
         },
@@ -2298,7 +2276,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Straubing Landratsamt",
-          "street": "Leutnerstra\u00dfe 15",
+          "street": "Leutnerstraﬂe 15",
           "zip": "94315",
           "country": "Deutschland"
         },
@@ -2326,7 +2304,7 @@
         "connectors": [
           {
             "evseid": "DE*666*E1000188",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -2357,7 +2335,7 @@
             "label": "Ladeseite links"
           }
         ],
-        "connectors_free": 1,
+        "connectors_free": 2,
         "address": {
           "city": "Straubing Stadt",
           "street": "Parkplatz Donaugasse",
@@ -2437,7 +2415,7 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 12.80383, 48.889108 ]
+        "coordinates": [ 12.805803, 48.888543 ]
       },
       "type": "Feature",
       "properties": {
@@ -2484,7 +2462,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Niederwinkling",
-          "street": "Handwerkerstra\u00dfe 20",
+          "street": "Handwerkerstraﬂe 20",
           "zip": "94559",
           "country": "Deutschland"
         },
@@ -2670,7 +2648,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Rattenberg",
-          "street": "Hauptstra\u00dfe 17",
+          "street": "Hauptstraﬂe 17",
           "zip": "94371",
           "country": "Deutschland"
         },
@@ -2732,7 +2710,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Cham LRA",
-          "street": "Rachelstra\u00dfe 6",
+          "street": "Rachelstraﬂe 6",
           "zip": "93413",
           "country": "Deutschland"
         },
@@ -2747,50 +2725,6 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 12.353313, 48.448816 ]
-      },
-      "type": "Feature",
-      "properties": {
-        "status": "NoError",
-        "marker-color": "#000000",
-        "uuid": "5e22e866-d179-11e4-a755-005056b332c9",
-        "online_status": "unmanaged",
-        "title": "Vilsbiburg",
-        "operator": { "name": "E-Wald GmbH" },
-        "connectors": [
-          {
-            "evseid": null,
-            "status": "Available",
-            "type": [ ],
-            "id": 1070,
-            "label": null
-          },
-          {
-            "evseid": null,
-            "status": "Available",
-            "type": [ ],
-            "id": 1071,
-            "label": null
-          }
-        ],
-        "connectors_free": 2,
-        "address": {
-          "city": "Vilsbiburg",
-          "street": "F\u00e4rberanger ",
-          "zip": "84137",
-          "country": "Deutschland"
-        },
-        "connectors_faulted": 0,
-        "status_icon": "fi-electric-station",
-        "model": "Mennekes Basic S",
-        "manufacturer": "Mennekes",
-        "status_color": "#000000",
-        "connectors_total": 2
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
         "coordinates": [ 12.815981, 49.27138884 ]
       },
       "type": "Feature",
@@ -2799,9 +2733,9 @@
         "marker-color": "#000000",
         "uuid": "5e22ea2a-d179-11e4-a755-005056b332c9",
         "online_status": "unmanaged",
-        "title": "Arnschwang",
+        "title": "_Lager_Arnschwang_alt",
         "operator": { "name": "E-Wald GmbH" },
-        "connectors": [ ],
+        "connectors": [],
         "connectors_free": 0,
         "address": {
           "city": "Arnschwang",
@@ -2892,7 +2826,7 @@
         "online_status": "unmanaged",
         "title": "Osterhofen",
         "operator": { "name": "E-Wald GmbH" },
-        "connectors": [ ],
+        "connectors": [],
         "connectors_free": 0,
         "address": {
           "city": "Osterhofen",
@@ -3052,7 +2986,7 @@
         "connectors_free": 1,
         "address": {
           "city": "Offenberg Neuhausen",
-          "street": "Fritz-Sch\u00e4ffer-Stra\u00dfe 32",
+          "street": "Fritz-Sch‰ffer-Straﬂe 32",
           "zip": "94560",
           "country": "Deutschland"
         },
@@ -3072,16 +3006,49 @@
       "type": "Feature",
       "properties": {
         "status": "NoError",
-        "marker-color": "#000000",
+        "marker-color": "#44B6AE",
         "uuid": "5e22f466-d179-11e4-a755-005056b332c9",
-        "online_status": "unmanaged",
+        "online_status": "online",
         "title": "Bogen",
         "operator": { "name": "E-Wald GmbH" },
-        "connectors": [ ],
-        "connectors_free": 0,
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000193",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ2/Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2/Schuko",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2923,
+            "label": "Ladeseite links"
+          },
+          {
+            "evseid": "DE*666*E1000194",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ2/Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2/Schuko",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2924,
+            "label": "Ladseite rechts"
+          }
+        ],
+        "connectors_free": 2,
         "address": {
           "city": "Bogen",
-          "street": "Bahnhofsstra\u00dfe 26",
+          "street": "Bahnhofsstraﬂe 26",
           "zip": "94327",
           "country": "Deutschland"
         },
@@ -3089,8 +3056,8 @@
         "status_icon": "fi-electric-station",
         "model": "L 1900 alt",
         "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
-        "status_color": "#000000",
-        "connectors_total": 0
+        "status_color": "#44B6AE",
+        "connectors_total": 2
       }
     },
     {
@@ -3101,16 +3068,49 @@
       "type": "Feature",
       "properties": {
         "status": "NoError",
-        "marker-color": "#000000",
+        "marker-color": "#44B6AE",
         "uuid": "5e22f61b-d179-11e4-a755-005056b332c9",
-        "online_status": "unmanaged",
+        "online_status": "online",
         "title": "Bogen",
         "operator": { "name": "E-Wald GmbH" },
-        "connectors": [ ],
-        "connectors_free": 0,
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000199",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ2/Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2/Schuko",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2920,
+            "label": "Ladeseite links"
+          },
+          {
+            "evseid": "DE*666*E1000200",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ2/Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2/Schuko",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2921,
+            "label": "Ladeseite rechts"
+          }
+        ],
+        "connectors_free": 2,
         "address": {
           "city": "Bogen",
-          "street": "Bahnhofsstra\u00dfe 26",
+          "street": "Bahnhofsstraﬂe 26",
           "zip": "94327",
           "country": "Deutschland"
         },
@@ -3118,8 +3118,8 @@
         "status_icon": "fi-electric-station",
         "model": "L 1900 alt",
         "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
-        "status_color": "#000000",
-        "connectors_total": 0
+        "status_color": "#44B6AE",
+        "connectors_total": 2
       }
     },
     {
@@ -3172,7 +3172,7 @@
         "connectors_free": 1,
         "address": {
           "city": "Bodenmais",
-          "street": "Bahnhof Ladestra\u00dfe",
+          "street": "Bahnhof Ladestraﬂe",
           "zip": "94249",
           "country": "Deutschland"
         },
@@ -3296,7 +3296,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Bayerisch Eisenstein",
-          "street": "Hauptstra\u00dfe 16",
+          "street": "Hauptstraﬂe 16",
           "zip": "94252",
           "country": "Deutschland"
         },
@@ -3358,7 +3358,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Regen Landratsamt",
-          "street": "Poschetsrieder Stra\u00dfe 16",
+          "street": "Poschetsrieder Straﬂe 16",
           "zip": "94209",
           "country": "Deutschland"
         },
@@ -3381,7 +3381,7 @@
         "marker-color": "#44B6AE",
         "uuid": "5e2303e0-d179-11e4-a755-005056b332c9",
         "online_status": "online",
-        "title": "Frauenau",
+        "title": "Frauenau rechts",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
@@ -3435,68 +3435,6 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 13.180823, 48.898544 ]
-      },
-      "type": "Feature",
-      "properties": {
-        "status": "NoError",
-        "marker-color": "#44B6AE",
-        "uuid": "5e23058b-d179-11e4-a755-005056b332c9",
-        "online_status": "online",
-        "title": "Kirchberg im Wald",
-        "operator": { "name": "E-Wald GmbH" },
-        "connectors": [
-          {
-            "evseid": "DE*666*E1000237",
-            "status": "Available",
-            "type": {
-              "max_phase": 3,
-              "max_power_string": "22,1 kW",
-              "socket": "Typ2/Schuko",
-              "max_volt": 230,
-              "charge_mode": "Mode 3",
-              "label": "Typ2/Schuko",
-              "max_power": 22080,
-              "max_ampere": 32
-            },
-            "id": 1910,
-            "label": "Ladeseite links"
-          },
-          {
-            "evseid": "DE*666*E1000238",
-            "status": "Available",
-            "type": {
-              "max_phase": 3,
-              "max_power_string": "22,1 kW",
-              "socket": "Typ2/Schuko",
-              "max_volt": 230,
-              "charge_mode": "Mode 3",
-              "label": "Typ2/Schuko",
-              "max_power": 22080,
-              "max_ampere": 32
-            },
-            "id": 1911,
-            "label": "Ladeseite rechts"
-          }
-        ],
-        "connectors_free": 2,
-        "address": {
-          "city": "Kirchberg im Wald",
-          "street": "Ahornstra\u00dfe",
-          "zip": "94259",
-          "country": "Deutschland"
-        },
-        "connectors_faulted": 0,
-        "status_icon": "fi-electric-station",
-        "model": "L 1900 alt",
-        "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
-        "status_color": "#44B6AE",
-        "connectors_total": 2
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
         "coordinates": [ 12.913449, 48.856206 ]
       },
       "type": "Feature",
@@ -3510,7 +3448,7 @@
         "connectors": [
           {
             "evseid": "DE*666*E1000203",
-            "status": "Available",
+            "status": "Occupied",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -3541,10 +3479,10 @@
             "label": "Ladeseite rechts"
           }
         ],
-        "connectors_free": 2,
+        "connectors_free": 1,
         "address": {
           "city": "Metten",
-          "street": "Bahnhofstra\u00dfe 2",
+          "street": "Bahnhofstraﬂe 2",
           "zip": "94526",
           "country": "Deutschland"
         },
@@ -3588,7 +3526,7 @@
           },
           {
             "evseid": "DE*666*E1000206",
-            "status": "Available",
+            "status": "Occupied",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -3603,10 +3541,10 @@
             "label": "Ladeseite rechts"
           }
         ],
-        "connectors_free": 2,
+        "connectors_free": 1,
         "address": {
           "city": "Winzer",
-          "street": "Pledlstra\u00dfe 1",
+          "street": "Pledlstraﬂe 1",
           "zip": "94577",
           "country": "Deutschland"
         },
@@ -3650,7 +3588,7 @@
           },
           {
             "evseid": "DE*666*E1000207",
-            "status": "Available",
+            "status": "Occupied",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -3665,10 +3603,10 @@
             "label": "Ladeseite links"
           }
         ],
-        "connectors_free": 2,
+        "connectors_free": 1,
         "address": {
           "city": "Hengersberg",
-          "street": "Passauer Stra\u00dfe",
+          "street": "Passauer Straﬂe",
           "zip": "94491",
           "country": "Deutschland"
         },
@@ -3730,7 +3668,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Langdorf",
-          "street": "Hauptstra\u00dfe 8",
+          "street": "Hauptstraﬂe 8",
           "zip": "94264",
           "country": "Deutschland"
         },
@@ -3758,7 +3696,7 @@
         "connectors": [
           {
             "evseid": "DE*666*E1000241",
-            "status": "Available",
+            "status": "Occupied",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -3773,10 +3711,10 @@
             "label": "Schuko / Typ2"
           }
         ],
-        "connectors_free": 1,
+        "connectors_free": 0,
         "address": {
           "city": "Langdorf",
-          "street": "Hauptstra\u00dfe 8",
+          "street": "Hauptstraﬂe 8",
           "zip": "94264",
           "country": "Deutschland"
         },
@@ -3882,7 +3820,7 @@
           },
           {
             "evseid": "DE*666*E1000306",
-            "status": "Available",
+            "status": "Occupied",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -3897,7 +3835,7 @@
             "label": "Ladeseite rechts"
           }
         ],
-        "connectors_free": 2,
+        "connectors_free": 1,
         "address": {
           "city": "Ruhmannsfelden ",
           "street": "Marktplatz",
@@ -3915,7 +3853,7 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 13.141485, 48.84359 ]
+        "coordinates": [ 13.141436, 48.843613 ]
       },
       "type": "Feature",
       "properties": {
@@ -3923,12 +3861,12 @@
         "marker-color": "#44B6AE",
         "uuid": "5e23371f-d179-11e4-a755-005056b332c9",
         "online_status": "online",
-        "title": "Lalling ",
+        "title": "Lalling links",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
             "evseid": "DE*666*E1000247",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -3959,7 +3897,7 @@
             "label": "Ladeseite rechts"
           }
         ],
-        "connectors_free": 1,
+        "connectors_free": 2,
         "address": {
           "city": "Lalling ",
           "street": "Parkplatz Kurpark",
@@ -3972,35 +3910,6 @@
         "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
         "status_color": "#44B6AE",
         "connectors_total": 2
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [ 12.863611, 49.311122 ]
-      },
-      "type": "Feature",
-      "properties": {
-        "status": "NoError",
-        "marker-color": "#000000",
-        "uuid": "5e2339d0-d179-11e4-a755-005056b332c9",
-        "online_status": "unmanaged",
-        "title": "Furth im Wald  Autohaus-Traurig ",
-        "operator": { "name": "E-Wald GmbH" },
-        "connectors": [ ],
-        "connectors_free": 0,
-        "address": {
-          "city": "Furth im Wald  Autohaus-Traurig ",
-          "street": "Dabergerstra\u00dfe 64",
-          "zip": "93437",
-          "country": "Deutschland"
-        },
-        "connectors_faulted": 0,
-        "status_icon": "fi-electric-station",
-        "model": "W900",
-        "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
-        "status_color": "#000000",
-        "connectors_total": 0
       }
     },
     {
@@ -4053,7 +3962,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Deggendorf",
-          "street": "Eginger Stra\u00dfe",
+          "street": "Eginger Straﬂe",
           "zip": "94469",
           "country": "Deutschland"
         },
@@ -4073,16 +3982,81 @@
       "type": "Feature",
       "properties": {
         "status": "NoError",
-        "marker-color": "#000000",
+        "marker-color": "#44B6AE",
         "uuid": "5e234c3c-d179-11e4-a755-005056b332c9",
-        "online_status": "unmanaged",
+        "online_status": "online",
         "title": "Hauzenberg",
         "operator": { "name": "E-Wald GmbH" },
-        "connectors": [ ],
-        "connectors_free": 0,
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000292",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko CEE7/4",
+              "max_volt": 230,
+              "charge_mode": "Mode 1",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 2905,
+            "label": "Schuko rechts"
+          },
+          {
+            "evseid": "DE*666*E100291",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Type 2",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Type 2 / 22 kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2906,
+            "label": "Schuko links"
+          },
+          {
+            "evseid": "DE*666*E1000294",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Type 2",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Type 2 / 22 kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2907,
+            "label": "Typ2 rechts"
+          },
+          {
+            "evseid": "DE*666*E100293",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Type 2",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Type 2 / 22 kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2908,
+            "label": "Typ2 links"
+          }
+        ],
+        "connectors_free": 4,
         "address": {
           "city": "Hauzenberg",
-          "street": "Pfarrstra\u00dfe",
+          "street": "Pfarrstraﬂe",
           "zip": "94051",
           "country": "Deutschland"
         },
@@ -4090,8 +4064,8 @@
         "status_icon": "fi-electric-station",
         "model": "LS-Public 12 2x2 (r1)",
         "manufacturer": "Technagon GmbH",
-        "status_color": "#000000",
-        "connectors_total": 0
+        "status_color": "#44B6AE",
+        "connectors_total": 4
       }
     },
     {
@@ -4176,7 +4150,7 @@
         "connectors_free": 4,
         "address": {
           "city": "Pocking",
-          "street": "Bahnhofstra\u00dfe 6a",
+          "street": "Bahnhofstraﬂe 6a",
           "zip": "94060",
           "country": "Deutschland"
         },
@@ -4201,7 +4175,7 @@
         "online_status": "unmanaged",
         "title": "Schierling",
         "operator": { "name": "E-Wald GmbH" },
-        "connectors": [ ],
+        "connectors": [],
         "connectors_free": 0,
         "address": {
           "city": "Schierling",
@@ -4331,7 +4305,7 @@
         "connectors_free": 6,
         "address": {
           "city": "Neureichenau",
-          "street": "Branntweinh\u00e4user 17a ",
+          "street": "Branntweinh‰user 17a ",
           "zip": "94089",
           "country": "Deutschland"
         },
@@ -4354,7 +4328,7 @@
         "marker-color": "#44B6AE",
         "uuid": "5e2354cc-d179-11e4-a755-005056b332c9",
         "online_status": "online",
-        "title": "St Oswald Riedlh\u00fctte",
+        "title": "St Oswald Riedlh¸tte",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
@@ -4407,7 +4381,7 @@
           },
           {
             "evseid": "DE*666*E1000068",
-            "status": "Available",
+            "status": "Occupied",
             "type": {
               "max_phase": 1,
               "max_power_string": "3,7 kW",
@@ -4422,9 +4396,9 @@
             "label": "Schuko rechts"
           }
         ],
-        "connectors_free": 3,
+        "connectors_free": 2,
         "address": {
-          "city": "St Oswald Riedlh\u00fctte",
+          "city": "St Oswald Riedlh¸tte",
           "street": "Parkplatz Ortszentrum",
           "zip": "94566",
           "country": "Deutschland"
@@ -4448,12 +4422,12 @@
         "marker-color": "#44B6AE",
         "uuid": "5e23568b-d179-11e4-a755-005056b332c9",
         "online_status": "online",
-        "title": "R\u00f6hrnbach",
+        "title": "Rˆhrnbach",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
             "evseid": "DE*666*E1000142",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -4469,7 +4443,7 @@
           },
           {
             "evseid": "DE*666*E1000140",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 1,
               "max_power_string": "3,7 kW",
@@ -4516,10 +4490,10 @@
             "label": "Schuko links"
           }
         ],
-        "connectors_free": 2,
+        "connectors_free": 4,
         "address": {
-          "city": "R\u00f6hrnbach",
-          "street": "Rathausstra\u00dfe",
+          "city": "Rˆhrnbach",
+          "street": "Rathausstraﬂe",
           "zip": "94133",
           "country": "Deutschland"
         },
@@ -4613,7 +4587,7 @@
         "connectors_free": 4,
         "address": {
           "city": "Neuburg am Inn",
-          "street": "Passauer Stra\u00dfe 43",
+          "street": "Passauer Straﬂe 43",
           "zip": "94127",
           "country": "Deutschland"
         },
@@ -4636,13 +4610,13 @@
         "marker-color": "#000000",
         "uuid": "5e235a05-d179-11e4-a755-005056b332c9",
         "online_status": "unmanaged",
-        "title": "B\u00f6brach",
+        "title": "Bˆbrach",
         "operator": { "name": "E-Wald GmbH" },
-        "connectors": [ ],
+        "connectors": [],
         "connectors_free": 0,
         "address": {
-          "city": "B\u00f6brach",
-          "street": "Bodenmaiser Stra\u00dfe 10",
+          "city": "Bˆbrach",
+          "street": "Bodenmaiser Straﬂe 10",
           "zip": "94255",
           "country": "Deutschland"
         },
@@ -4791,12 +4765,12 @@
         "marker-color": "#000000",
         "uuid": "5e23648e-d179-11e4-a755-005056b332c9",
         "online_status": "unmanaged",
-        "title": "Geiselh\u00f6ring",
+        "title": "Geiselhˆring",
         "operator": { "name": "E-Wald GmbH" },
-        "connectors": [ ],
+        "connectors": [],
         "connectors_free": 0,
         "address": {
-          "city": "Geiselh\u00f6ring",
+          "city": "Geiselhˆring",
           "street": "Dingolfinger Strasse 16",
           "zip": "94333",
           "country": "Deutschland"
@@ -4825,7 +4799,7 @@
         "connectors": [
           {
             "evseid": "DE*666*E1000060",
-            "status": "Available",
+            "status": "Occupied",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -4888,10 +4862,10 @@
             "label": "Schuko links"
           }
         ],
-        "connectors_free": 3,
+        "connectors_free": 2,
         "address": {
           "city": "Waldkirchen",
-          "street": "Ringmauerstra\u00dfe 14",
+          "street": "Ringmauerstraﬂe 14",
           "zip": "94265",
           "country": "Deutschland"
         },
@@ -4906,48 +4880,19 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 12.359402, 48.448804 ]
+        "coordinates": [ 12.860935, 49.1751107 ]
       },
       "type": "Feature",
       "properties": {
-        "status": "NoError",
-        "marker-color": "#000000",
-        "uuid": "5e23681b-d179-11e4-a755-005056b332c9",
-        "online_status": "unmanaged",
-        "title": "Vilsbiburg ",
-        "operator": { "name": "E-Wald GmbH" },
-        "connectors": [ ],
-        "connectors_free": 0,
-        "address": {
-          "city": "Vislbiburg",
-          "street": "Georgenstra\u00dfe 1",
-          "zip": "94078",
-          "country": "Deutschland"
-        },
-        "connectors_faulted": 0,
-        "status_icon": "fi-electric-station",
-        "model": "Mennekes Basic S",
-        "manufacturer": "Mennekes",
-        "status_color": "#000000",
-        "connectors_total": 0
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [ 12.80916, 48.9144444 ]
-      },
-      "type": "Feature",
-      "properties": {
-        "status": "NoError",
+        "status": "Error",
         "marker-color": "#44B6AE",
         "uuid": "5e2369ce-d179-11e4-a755-005056b332c9",
         "online_status": "online",
-        "title": "Schwarzach",
+        "title": "Bad Kˆtzting",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
-            "evseid": "DE*666*E1000251",
+            "evseid": "DE*666*E1000417",
             "status": "Available",
             "type": {
               "max_phase": 3,
@@ -4963,8 +4908,8 @@
             "label": "Ladeseite links"
           },
           {
-            "evseid": "DE*666*E1000252",
-            "status": "Occupied",
+            "evseid": "DE*666*E1000418",
+            "status": "Faulted",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -4981,12 +4926,12 @@
         ],
         "connectors_free": 1,
         "address": {
-          "city": "Schwarzach",
-          "street": "Schulstra\u00dfe 4",
-          "zip": "94374",
+          "city": "Bad Kˆtzting",
+          "street": "Bgm.-Seidl-Platz 1",
+          "zip": "93444",
           "country": "Deutschland"
         },
-        "connectors_faulted": 0,
+        "connectors_faulted": 1,
         "status_icon": "fi-electric-station",
         "model": "L1900",
         "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
@@ -5044,7 +4989,7 @@
         "connectors_free": 1,
         "address": {
           "city": "Ascha ",
-          "street": "Industriestra\u00dfe 22",
+          "street": "Industriestraﬂe 22",
           "zip": "94347",
           "country": "Deutschland"
         },
@@ -5125,7 +5070,7 @@
       },
       "type": "Feature",
       "properties": {
-        "status": "Error",
+        "status": "NoError",
         "marker-color": "#44B6AE",
         "uuid": "5e236efa-d179-11e4-a755-005056b332c9",
         "online_status": "online",
@@ -5150,7 +5095,7 @@
           },
           {
             "evseid": "DE*666*E1000308",
-            "status": "Faulted",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -5165,14 +5110,14 @@
             "label": "Ladeseite rechts"
           }
         ],
-        "connectors_free": 1,
+        "connectors_free": 2,
         "address": {
           "city": "Zwiesel Bahnhof ",
           "street": "Bahnhofsplatz 1",
           "zip": "94227",
           "country": "Deutschland"
         },
-        "connectors_faulted": 1,
+        "connectors_faulted": 0,
         "status_icon": "fi-electric-station",
         "model": "L1900",
         "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
@@ -5193,11 +5138,11 @@
         "online_status": "unmanaged",
         "title": "Deggendorf Dobak",
         "operator": { "name": "E-Wald GmbH" },
-        "connectors": [ ],
+        "connectors": [],
         "connectors_free": 0,
         "address": {
           "city": "Deggendorf",
-          "street": "Wiesenstra\u00dfe 10  ",
+          "street": "Wiesenstraﬂe 10  ",
           "zip": "94469",
           "country": "Deutschland"
         },
@@ -5291,7 +5236,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Ruderting ",
-          "street": "Passauer Stra\u00dfe 3",
+          "street": "Passauer Straﬂe 3",
           "zip": "94161",
           "country": "Deutschland"
         },
@@ -5316,7 +5261,7 @@
         "online_status": "unmanaged",
         "title": "Plattling Bahnhof",
         "operator": { "name": "E-Wald GmbH" },
-        "connectors": [ ],
+        "connectors": [],
         "connectors_free": 0,
         "address": {
           "city": "",
@@ -5343,7 +5288,7 @@
         "marker-color": "#44B6AE",
         "uuid": "5e2392ee-d179-11e4-a755-005056b332c9",
         "online_status": "online",
-        "title": "Sankt Englmar",
+        "title": "Sankt Englmar rechts",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
@@ -5377,23 +5322,9 @@
             },
             "id": 897,
             "label": "Ladeseite rechts"
-          },
-          {
-            "evseid": null,
-            "status": "Available",
-            "type": [ ],
-            "id": 959,
-            "label": null
-          },
-          {
-            "evseid": null,
-            "status": "Available",
-            "type": [ ],
-            "id": 960,
-            "label": null
           }
         ],
-        "connectors_free": 4,
+        "connectors_free": 2,
         "address": {
           "city": "Sankt Englmar",
           "street": "Bayerweg 7    (Kurpark)",
@@ -5405,49 +5336,67 @@
         "model": "L1900",
         "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
         "status_color": "#44B6AE",
-        "connectors_total": 4
+        "connectors_total": 2
       }
     },
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 12.958894, 48.77526 ]
+        "coordinates": [ 12.534976, 49.339825 ]
       },
       "type": "Feature",
       "properties": {
         "status": "NoError",
         "marker-color": "#44B6AE",
-        "uuid": "5e239c01-d179-11e4-a755-005056b332c9",
+        "uuid": "5e23989a-d179-11e4-a755-005056b332c9",
         "online_status": "online",
-        "title": "Isarm\u00fcnd",
+        "title": "Rˆtz",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
-            "evseid": null,
+            "evseid": "DE*666*E1000348",
             "status": "Available",
-            "type": [ ],
-            "id": 2470,
-            "label": null
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 2",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 806,
+            "label": "Schuko"
           },
           {
-            "evseid": null,
+            "evseid": "DE*666*E1000349",
             "status": "Available",
-            "type": [ ],
-            "id": 2471,
-            "label": null
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 807,
+            "label": "Typ 2"
           }
         ],
         "connectors_free": 2,
         "address": {
-          "city": "Isarm\u00fcnd",
-          "street": "Isarm\u00fcnd Maxm\u00fchle",
-          "zip": "94554",
+          "city": "Markt Rˆtz",
+          "street": "Br‰umeisterweg 16",
+          "zip": "92444",
           "country": "Deutschland"
         },
         "connectors_faulted": 0,
         "status_icon": "fi-electric-station",
-        "model": "L1900",
-        "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
+        "model": "VE-Public 1x2",
+        "manufacturer": "VENIOX GmbH & Co. KG",
         "status_color": "#44B6AE",
         "connectors_total": 2
       }
@@ -5500,7 +5449,7 @@
           },
           {
             "evseid": "DE*666*E1000175",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -5516,7 +5465,7 @@
           },
           {
             "evseid": "DE*666*E1000173",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 1,
               "max_power_string": "3,7 kW",
@@ -5531,7 +5480,7 @@
             "label": "Schuko links"
           }
         ],
-        "connectors_free": 0,
+        "connectors_free": 2,
         "address": {
           "city": "Schaufling",
           "street": "Asklepios Klinik",
@@ -5557,7 +5506,7 @@
         "marker-color": "#44B6AE",
         "uuid": "5e23b8eb-d179-11e4-a755-005056b332c9",
         "online_status": "online",
-        "title": "M\u00fchldorf",
+        "title": "M¸hldorf",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
@@ -5627,8 +5576,8 @@
         ],
         "connectors_free": 4,
         "address": {
-          "city": "M\u00fchldorf am Inn",
-          "street": "Leopoldstra\u00dfe 1",
+          "city": "M¸hldorf am Inn",
+          "street": "Leopoldstraﬂe 1",
           "zip": "84453",
           "country": "Deutschland"
         },
@@ -5647,7 +5596,7 @@
       },
       "type": "Feature",
       "properties": {
-        "status": "NoError",
+        "status": "Error",
         "marker-color": "#44B6AE",
         "uuid": "5e240e1a-d179-11e4-a755-005056b332c9",
         "online_status": "online",
@@ -5656,7 +5605,7 @@
         "connectors": [
           {
             "evseid": "DE*666*E1000316",
-            "status": "Available",
+            "status": "Faulted",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -5703,14 +5652,14 @@
             "label": "CCS"
           }
         ],
-        "connectors_free": 3,
+        "connectors_free": 2,
         "address": {
           "city": "Deggendorf",
-          "street": "Eginger Stra\u00dfe",
+          "street": "Eginger Straﬂe",
           "zip": "94469",
           "country": "Deutschland"
         },
-        "connectors_faulted": 0,
+        "connectors_faulted": 1,
         "status_icon": "fi-electric-station",
         "model": "Terra 23 CJG 45KW",
         "manufacturer": "ABB",
@@ -5734,7 +5683,7 @@
         "connectors": [
           {
             "evseid": "DE*666*E1000243",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -5750,7 +5699,7 @@
           },
           {
             "evseid": "DE*666*E1000244",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -5765,7 +5714,7 @@
             "label": "Ladeseite rechts"
           }
         ],
-        "connectors_free": 0,
+        "connectors_free": 2,
         "address": {
           "city": "Drachselsried",
           "street": "Pointwiese 4",
@@ -5894,7 +5843,7 @@
         "connectors_free": 4,
         "address": {
           "city": "Grafenau",
-          "street": "Bahnhofstra\u00dfe",
+          "street": "Bahnhofstraﬂe",
           "zip": "94881",
           "country": "Deutschland"
         },
@@ -5904,6 +5853,100 @@
         "manufacturer": "Technagon GmbH",
         "status_color": "#44B6AE",
         "connectors_total": 6
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.695260047913, 48.662410546425 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "857cc850-0da1-11e5-8ba4-005056b332c9",
+        "online_status": "online",
+        "title": "Landau an der Isar",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E94405473202",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 873,
+            "label": "Typ 2 rechts"
+          },
+          {
+            "evseid": "DE*666*E1000356",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 2",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 874,
+            "label": "Schuko links"
+          },
+          {
+            "evseid": "DE*666*E94405473473102",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 875,
+            "label": "Typ 2 links"
+          },
+          {
+            "evseid": "DE*666*E1000357",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 2",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 876,
+            "label": "Schuko rechts"
+          }
+        ],
+        "connectors_free": 4,
+        "address": {
+          "city": "Landau",
+          "street": "Stadtgraben 8",
+          "zip": "94405",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "VE-Public 12 2x2",
+        "manufacturer": "VENIOX GmbH & Co. KG",
+        "status_color": "#44B6AE",
+        "connectors_total": 4
       }
     },
     {
@@ -5988,7 +6031,7 @@
         "connectors_free": 4,
         "address": {
           "city": "Miltach",
-          "street": "K\u00f6tztinger Str. 3,",
+          "street": "Kˆtztinger Str. 3,",
           "zip": "93468",
           "country": "Deutschland"
         },
@@ -6016,7 +6059,7 @@
         "connectors": [
           {
             "evseid": "DE*666*E1000361",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -6047,7 +6090,7 @@
             "label": "Typ2"
           }
         ],
-        "connectors_free": 1,
+        "connectors_free": 2,
         "address": {
           "city": "Patersdorf",
           "street": "Kirchensteg 1",
@@ -6073,12 +6116,12 @@
         "marker-color": "#44B6AE",
         "uuid": "857d25f8-0da1-11e5-8ba4-005056b332c9",
         "online_status": "online",
-        "title": "Regen Landwirtschaftsmuseum",
+        "title": "Regen Landwirtschaftsmuseum links",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
             "evseid": "DE*666*E1000233",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -6109,7 +6152,7 @@
             "label": "Ladeseite rechts"
           }
         ],
-        "connectors_free": 1,
+        "connectors_free": 2,
         "address": {
           "city": "Regen",
           "street": "Schulgasse 2-8",
@@ -6169,23 +6212,9 @@
             },
             "id": 893,
             "label": "Ladeseite rechts"
-          },
-          {
-            "evseid": null,
-            "status": "Available",
-            "type": [ ],
-            "id": 946,
-            "label": null
-          },
-          {
-            "evseid": null,
-            "status": "Available",
-            "type": [ ],
-            "id": 947,
-            "label": null
           }
         ],
-        "connectors_free": 4,
+        "connectors_free": 2,
         "address": {
           "city": "Arnbruck",
           "street": "Gemeindezentrum 2",
@@ -6197,7 +6226,7 @@
         "model": "L1900",
         "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
         "status_color": "#44B6AE",
-        "connectors_total": 4
+        "connectors_total": 2
       }
     },
     {
@@ -6250,7 +6279,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Viechtach",
-          "street": "Bahnhofstra\u00dfe 26",
+          "street": "Bahnhofstraﬂe 26",
           "zip": "94234",
           "country": "Deutschland"
         },
@@ -6312,7 +6341,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Hunderdorf",
-          "street": "Bahnhofstra\u00dfe 26",
+          "street": "Bahnhofstraﬂe 26",
           "zip": "94336",
           "country": "Deutschland"
         },
@@ -6331,7 +6360,7 @@
       },
       "type": "Feature",
       "properties": {
-        "status": "Error",
+        "status": "NoError",
         "marker-color": "#44B6AE",
         "uuid": "857d4cdd-0da1-11e5-8ba4-005056b332c9",
         "online_status": "online",
@@ -6344,7 +6373,7 @@
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
-              "socket": "CCS 22kW",
+              "socket": "CCS",
               "max_volt": 230,
               "charge_mode": "Mode 4",
               "label": "CCS 22kW",
@@ -6360,7 +6389,7 @@
             "type": {
               "max_phase": 1,
               "max_power_string": "20,0 kW",
-              "socket": "CHAdeMO 20kW",
+              "socket": "CHAdeMO",
               "max_volt": 200,
               "charge_mode": "Mode 4",
               "label": "CHAdeMO 20 kW",
@@ -6372,7 +6401,7 @@
           },
           {
             "evseid": "DE*666*E1000332",
-            "status": "Faulted",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -6387,14 +6416,14 @@
             "label": "Typ 2"
           }
         ],
-        "connectors_free": 2,
+        "connectors_free": 3,
         "address": {
           "city": "Passau",
-          "street": "Gr\u00fcnaustra\u00dfe 2",
+          "street": "Gr¸naustraﬂe 2",
           "zip": "94032",
           "country": "Deutschland"
         },
-        "connectors_faulted": 1,
+        "connectors_faulted": 0,
         "status_icon": "fi-electric-station",
         "model": "@flex triple",
         "manufacturer": "e8energy",
@@ -6475,7 +6504,7 @@
         "marker-color": "#44B6AE",
         "uuid": "857d70d2-0da1-11e5-8ba4-005056b332c9",
         "online_status": "online",
-        "title": "Cham Quadfeldm\u00fchle",
+        "title": "Cham Quadfeldm¸hle",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
@@ -6514,7 +6543,7 @@
         "connectors_free": 2,
         "address": {
           "city": " Cham",
-          "street": "Quadfeldm\u00fchle",
+          "street": "Quadfeldm¸hle",
           "zip": "93413",
           "country": "Deutschland"
         },
@@ -6522,6 +6551,192 @@
         "status_icon": "fi-electric-station",
         "model": "VE-Public 1x2",
         "manufacturer": "VENIOX GmbH & Co. KG",
+        "status_color": "#44B6AE",
+        "connectors_total": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.375124, 49.18481 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "857d72f1-0da1-11e5-8ba4-005056b332c9",
+        "online_status": "online",
+        "title": "Walderbach",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000329",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 2",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 930,
+            "label": "Schuko"
+          },
+          {
+            "evseid": "DE*666*E1000330",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 931,
+            "label": "Typ 2"
+          }
+        ],
+        "connectors_free": 2,
+        "address": {
+          "city": "Walderbach",
+          "street": "Hauptstraﬂe 1 Parkplatz Friedhof",
+          "zip": "93194",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "VE-Public 1x2",
+        "manufacturer": "VENIOX GmbH & Co. KG",
+        "status_color": "#44B6AE",
+        "connectors_total": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 13.051843, 49.196728 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "857d750b-0da1-11e5-8ba4-005056b332c9",
+        "online_status": "online",
+        "title": "Lam",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000321",
+            "status": "Occupied",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 2",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 932,
+            "label": "Schuko"
+          },
+          {
+            "evseid": "DE*666*E1000322",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 933,
+            "label": "Typ 2"
+          }
+        ],
+        "connectors_free": 1,
+        "address": {
+          "city": "Lam",
+          "street": "Arberstraﬂe 24",
+          "zip": "93462",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "VE-Public 1x2",
+        "manufacturer": "VENIOX GmbH & Co. KG",
+        "status_color": "#44B6AE",
+        "connectors_total": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.538919, 49.040845 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "857d7941-0da1-11e5-8ba4-005056b332c9",
+        "online_status": "online",
+        "title": "Wiesenfelden e8energy",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000364",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 936,
+            "label": "Typ 2"
+          },
+          {
+            "evseid": "DE*666*E1000363",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "44,2 kW",
+              "socket": "CHAdeMO",
+              "max_volt": 230,
+              "charge_mode": "Mode 4",
+              "label": "CHAdeMO",
+              "max_power": 44160,
+              "max_ampere": 64
+            },
+            "id": 937,
+            "label": "CHAdeMO"
+          }
+        ],
+        "connectors_free": 2,
+        "address": {
+          "city": "Wiesenfelden",
+          "street": "Schulstraﬂe 1",
+          "zip": "94344",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "@flex duo",
+        "manufacturer": "e8energy",
         "status_color": "#44B6AE",
         "connectors_total": 2
       }
@@ -6599,7 +6814,7 @@
         "marker-color": "#44B6AE",
         "uuid": "857d7d86-0da1-11e5-8ba4-005056b332c9",
         "online_status": "online",
-        "title": "Cham Quadfeldm\u00fchle e8energy",
+        "title": "Cham Quadfeldm¸hle e8energy",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
@@ -6638,7 +6853,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Cham",
-          "street": "Quadfeldm\u00fchle",
+          "street": "Quadfeldm¸hle",
           "zip": "93413",
           "country": "Deutschland"
         },
@@ -6666,7 +6881,7 @@
         "connectors": [
           {
             "evseid": "DE*666*E1000257",
-            "status": "Available",
+            "status": "Occupied",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -6695,26 +6910,12 @@
             },
             "id": 956,
             "label": "Ladeseite rechts"
-          },
-          {
-            "evseid": null,
-            "status": "Available",
-            "type": [ ],
-            "id": 957,
-            "label": null
-          },
-          {
-            "evseid": null,
-            "status": "Available",
-            "type": [ ],
-            "id": 958,
-            "label": null
           }
         ],
-        "connectors_free": 4,
+        "connectors_free": 1,
         "address": {
           "city": "Mitterfels",
-          "street": "Burgstra\u00dfe 34",
+          "street": "Burgstraﬂe 34",
           "zip": "94360",
           "country": "Deutschland"
         },
@@ -6722,130 +6923,6 @@
         "status_icon": "fi-electric-station",
         "model": "L1900",
         "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
-        "status_color": "#44B6AE",
-        "connectors_total": 4
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [ 12.860935, 49.1751107 ]
-      },
-      "type": "Feature",
-      "properties": {
-        "status": "NoError",
-        "marker-color": "#44B6AE",
-        "uuid": "857d881b-0da1-11e5-8ba4-005056b332c9",
-        "online_status": "online",
-        "title": "Bad K\u00f6tzting",
-        "operator": { "name": "E-Wald GmbH" },
-        "connectors": [
-          {
-            "evseid": "DE*666*E1000327",
-            "status": "Available",
-            "type": {
-              "max_phase": 1,
-              "max_power_string": "3,7 kW",
-              "socket": "Schuko",
-              "max_volt": 230,
-              "charge_mode": "Mode 2",
-              "label": "Schuko",
-              "max_power": 3680,
-              "max_ampere": 16
-            },
-            "id": 974,
-            "label": "Schuko"
-          },
-          {
-            "evseid": "DE*666*E1000328",
-            "status": "Available",
-            "type": {
-              "max_phase": 3,
-              "max_power_string": "22,1 kW",
-              "socket": "Typ 2 22kW",
-              "max_volt": 230,
-              "charge_mode": "Mode 3",
-              "label": "Typ 2 22kW",
-              "max_power": 22080,
-              "max_ampere": 32
-            },
-            "id": 975,
-            "label": "Typ 2"
-          }
-        ],
-        "connectors_free": 2,
-        "address": {
-          "city": "Bad K\u00f6tzting",
-          "street": "Bgm.-Seidl-Platz 1",
-          "zip": "93444",
-          "country": "Deutschland"
-        },
-        "connectors_faulted": 0,
-        "status_icon": "fi-electric-station",
-        "model": "VE-Public 1x2",
-        "manufacturer": "VENIOX GmbH & Co. KG",
-        "status_color": "#44B6AE",
-        "connectors_total": 2
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [ 12.253324, 48.776239 ]
-      },
-      "type": "Feature",
-      "properties": {
-        "status": "NoError",
-        "marker-color": "#44B6AE",
-        "uuid": "857dd849-0da1-11e5-8ba4-005056b332c9",
-        "online_status": "online",
-        "title": "Mallersdorf-Pfaffenberg e8energy",
-        "operator": { "name": "E-Wald GmbH" },
-        "connectors": [
-          {
-            "evseid": "DE*666*E1000339",
-            "status": "Available",
-            "type": {
-              "max_phase": 3,
-              "max_power_string": "44,2 kW",
-              "socket": "CHAdeMO",
-              "max_volt": 230,
-              "charge_mode": "Mode 4",
-              "label": "CHAdeMO",
-              "max_power": 44160,
-              "max_ampere": 64
-            },
-            "id": 1054,
-            "label": "CHAdeMO"
-          },
-          {
-            "evseid": "DE*666*E1000338",
-            "status": "Available",
-            "type": {
-              "max_phase": 3,
-              "max_power_string": "22,1 kW",
-              "socket": "Typ 2 22kW",
-              "max_volt": 230,
-              "charge_mode": "Mode 3",
-              "label": "Typ 2 22kW",
-              "max_power": 22080,
-              "max_ampere": 32
-            },
-            "id": 1055,
-            "label": "Typ 2"
-          }
-        ],
-        "connectors_free": 2,
-        "address": {
-          "city": "Mallersdorf-Pfaffenberg",
-          "street": "Torbogen 3",
-          "zip": "84066",
-          "country": "Deutschland"
-        },
-        "connectors_faulted": 0,
-        "status_icon": "fi-electric-station",
-        "model": "@flex duo",
-        "manufacturer": "e8energy",
         "status_color": "#44B6AE",
         "connectors_total": 2
       }
@@ -6962,7 +7039,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Roding",
-          "street": "Adolf Kolping Stra\u00dfe 1",
+          "street": "Adolf Kolping Straﬂe 1",
           "zip": "93426",
           "country": "Deutschland"
         },
@@ -7133,6 +7210,68 @@
     {
       "geometry": {
         "type": "Point",
+        "coordinates": [ 7.925557, 49.896332 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "51867f2c-e3c2-42eb-8d51-2b8f44901e51",
+        "online_status": "online",
+        "title": "Gensingen",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000373",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 1128,
+            "label": "Schuko"
+          },
+          {
+            "evseid": "DE*666*E1000374",
+            "status": "Occupied",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 1129,
+            "label": "Typ 2"
+          }
+        ],
+        "connectors_free": 1,
+        "address": {
+          "city": "Gensingen",
+          "street": "Pierre-de-Bresse-Platz",
+          "zip": "55457",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "VE-Public 1x2",
+        "manufacturer": "VENIOX GmbH & Co. KG",
+        "status_color": "#44B6AE",
+        "connectors_total": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
         "coordinates": [ 12.751705, 48.973381 ]
       },
       "type": "Feature",
@@ -7143,7 +7282,7 @@
         "online_status": "unmanaged",
         "title": "Neukirchen",
         "operator": { "name": "E-Wald GmbH" },
-        "connectors": [ ],
+        "connectors": [],
         "connectors_free": 0,
         "address": {
           "city": "",
@@ -7166,7 +7305,7 @@
       },
       "type": "Feature",
       "properties": {
-        "status": "NoError",
+        "status": "Error",
         "marker-color": "#44B6AE",
         "uuid": "341110c0-0829-41a8-8c05-3c9359dad473",
         "online_status": "online",
@@ -7191,7 +7330,7 @@
           },
           {
             "evseid": "DE*666*E1000098",
-            "status": "Occupied",
+            "status": "Faulted",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -7207,7 +7346,7 @@
           },
           {
             "evseid": "DE*666*E1000096",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 1,
               "max_power_string": "3,7 kW",
@@ -7238,14 +7377,14 @@
             "label": "Typ 2 links"
           }
         ],
-        "connectors_free": 2,
+        "connectors_free": 3,
         "address": {
           "city": "Ruhstorf",
           "street": "Am Schulplatz 8",
           "zip": "94099",
           "country": "Deutschland"
         },
-        "connectors_faulted": 0,
+        "connectors_faulted": 1,
         "status_icon": "fi-electric-station",
         "model": "LS-Public 12 2x2 (r1)",
         "manufacturer": "Technagon GmbH",
@@ -7488,42 +7627,42 @@
           {
             "evseid": null,
             "status": "Faulted",
-            "type": [ ],
+            "type": [],
             "id": 1201,
             "label": null
           },
           {
             "evseid": null,
             "status": "Faulted",
-            "type": [ ],
+            "type": [],
             "id": 1202,
             "label": null
           },
           {
             "evseid": null,
             "status": "Faulted",
-            "type": [ ],
+            "type": [],
             "id": 1203,
             "label": null
           },
           {
             "evseid": null,
             "status": "Faulted",
-            "type": [ ],
+            "type": [],
             "id": 1204,
             "label": null
           },
           {
             "evseid": null,
             "status": "Unavailable",
-            "type": [ ],
+            "type": [],
             "id": 1547,
             "label": null
           },
           {
             "evseid": null,
             "status": "Unavailable",
-            "type": [ ],
+            "type": [],
             "id": 1548,
             "label": null
           }
@@ -7531,7 +7670,7 @@
         "connectors_free": 0,
         "address": {
           "city": "Deggendorf",
-          "street": "Hans-Obser-Stra\u00dfe",
+          "street": "Hans-Obser-Straﬂe",
           "zip": "94469",
           "country": "Deutschland"
         },
@@ -7559,7 +7698,7 @@
         "connectors": [
           {
             "evseid": "DE*666*E1000117",
-            "status": "Available",
+            "status": "Occupied",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -7607,7 +7746,7 @@
           },
           {
             "evseid": "DE*666*E1000115",
-            "status": "Available",
+            "status": "Occupied",
             "type": {
               "max_phase": 1,
               "max_power_string": "3,7 kW",
@@ -7622,7 +7761,7 @@
             "label": "Schuko links"
           }
         ],
-        "connectors_free": 4,
+        "connectors_free": 2,
         "address": {
           "city": "Windorf",
           "street": "Gellert 16",
@@ -7648,7 +7787,7 @@
         "marker-color": "#44B6AE",
         "uuid": "1c35fa3c-d2b9-4289-a765-56c37ee66b43",
         "online_status": "online",
-        "title": "Bad F\u00fcssing",
+        "title": "Bad F¸ssing",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
@@ -7750,8 +7889,8 @@
         ],
         "connectors_free": 4,
         "address": {
-          "city": "Bad F\u00fcssing",
-          "street": "Rathausstra\u00dfe 10",
+          "city": "Bad F¸ssing",
+          "street": "Rathausstraﬂe 10",
           "zip": "94072",
           "country": "Deutschland"
         },
@@ -7774,7 +7913,7 @@
         "marker-color": "#44B6AE",
         "uuid": "995395c8-2afe-4463-9e68-581c76722aa4",
         "online_status": "online",
-        "title": "Haidm\u00fchle",
+        "title": "Haidm¸hle",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
@@ -7844,9 +7983,103 @@
         ],
         "connectors_free": 4,
         "address": {
-          "city": "Haidm\u00fchle",
-          "street": "Dreisesselstra\u00dfe 12 ",
+          "city": "Haidm¸hle",
+          "street": "Dreisesselstraﬂe 12 ",
           "zip": "94145",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "LS-Public 12 2x2 (r3)",
+        "manufacturer": "Technagon GmbH",
+        "status_color": "#44B6AE",
+        "connectors_total": 4
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 13.089162, 49.171534 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "009840c5-38ae-413e-a295-e5ad950eebde",
+        "online_status": "online",
+        "title": "Lohberg",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000127",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Type 2",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Type 2 / 22 kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 1221,
+            "label": "Typ 2 links"
+          },
+          {
+            "evseid": "DE*666*E1000125",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko CEE7/4",
+              "max_volt": 230,
+              "charge_mode": "Mode 1",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 1222,
+            "label": "Schuko links"
+          },
+          {
+            "evseid": "DE*666*E1000126",
+            "status": "Occupied",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko CEE7/4",
+              "max_volt": 230,
+              "charge_mode": "Mode 1",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 1223,
+            "label": "Schuko rechts"
+          },
+          {
+            "evseid": "DE*666*E1000128",
+            "status": "Occupied",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Type 2",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Type 2 / 22 kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 1224,
+            "label": "Typ 2 rechts"
+          }
+        ],
+        "connectors_free": 2,
+        "address": {
+          "city": "Lohberg",
+          "street": "Schwarzenbacher Straﬂe 1A",
+          "zip": "93470",
           "country": "Deutschland"
         },
         "connectors_faulted": 0,
@@ -7939,7 +8172,7 @@
         "connectors_free": 4,
         "address": {
           "city": "Eschlkam",
-          "street": "Lindenstra\u00dfe 13 ",
+          "street": "Lindenstraﬂe 13 ",
           "zip": "93458",
           "country": "Deutschland"
         },
@@ -8155,7 +8388,7 @@
         "connectors": [
           {
             "evseid": "DE*666*E1000325",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -8186,7 +8419,7 @@
             "label": "Ladeseite rechts"
           }
         ],
-        "connectors_free": 1,
+        "connectors_free": 2,
         "address": {
           "city": "Stuttgart",
           "street": "Hamletstrasse 13",
@@ -8251,7 +8484,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Regen",
-          "street": "Poschetsrieder Stra\u00dfe 16",
+          "street": "Poschetsrieder Straﬂe 16",
           "zip": "94209",
           "country": "Deutschland"
         },
@@ -8282,13 +8515,13 @@
             "status": "Available",
             "type": {
               "max_phase": 3,
-              "max_power_string": "22,1 kW",
-              "socket": "Typ 2 22kW",
+              "max_power_string": "11,0 kW",
+              "socket": "Typ2 11kW",
               "max_volt": 230,
               "charge_mode": "Mode 3",
-              "label": "Typ 2 22kW",
-              "max_power": 22080,
-              "max_ampere": 32
+              "label": "Typ2 11kW",
+              "max_power": 11040,
+              "max_ampere": 16
             },
             "id": 1393,
             "label": "Typ 2 rechts"
@@ -8298,50 +8531,22 @@
             "status": "Occupied",
             "type": {
               "max_phase": 3,
-              "max_power_string": "22,1 kW",
-              "socket": "Typ 2 22kW",
+              "max_power_string": "11,0 kW",
+              "socket": "Typ2 11kW",
               "max_volt": 230,
               "charge_mode": "Mode 3",
-              "label": "Typ 2 22kW",
-              "max_power": 22080,
-              "max_ampere": 32
+              "label": "Typ2 11kW",
+              "max_power": 11040,
+              "max_ampere": 16
             },
             "id": 1394,
             "label": "Typ 2 links"
-          },
-          {
-            "evseid": null,
-            "status": "Available",
-            "type": [ ],
-            "id": 2454,
-            "label": null
-          },
-          {
-            "evseid": null,
-            "status": "Available",
-            "type": [ ],
-            "id": 2468,
-            "label": null
-          },
-          {
-            "evseid": null,
-            "status": "Available",
-            "type": [ ],
-            "id": 2469,
-            "label": null
-          },
-          {
-            "evseid": null,
-            "status": "Available",
-            "type": [ ],
-            "id": 2474,
-            "label": null
           }
         ],
-        "connectors_free": 5,
+        "connectors_free": 1,
         "address": {
           "city": "Heuchlingen",
-          "street": "K\u00fcferstra\u00dfe 3",
+          "street": "K¸ferstraﬂe 3",
           "zip": "73572",
           "country": "Deutschland"
         },
@@ -8350,7 +8555,7 @@
         "model": "LSP7T 11kW/11kW",
         "manufacturer": "Technagon GmbH",
         "status_color": "#44B6AE",
-        "connectors_total": 6
+        "connectors_total": 2
       }
     },
     {
@@ -8370,14 +8575,14 @@
           {
             "evseid": null,
             "status": "Available",
-            "type": [ ],
+            "type": [],
             "id": 1481,
             "label": null
           },
           {
             "evseid": null,
             "status": "Available",
-            "type": [ ],
+            "type": [],
             "id": 1482,
             "label": null
           }
@@ -8447,7 +8652,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Pettendorf",
-          "street": "Schlo\u00dfstra\u00dfe 28",
+          "street": "Schloﬂstraﬂe 28",
           "zip": "93186",
           "country": "Deutschland"
         },
@@ -8466,7 +8671,7 @@
       },
       "type": "Feature",
       "properties": {
-        "status": "Error",
+        "status": "NoError",
         "marker-color": "#44B6AE",
         "uuid": "e72e6dd6-8398-4dea-9931-0c105147a9c0",
         "online_status": "online",
@@ -8491,7 +8696,7 @@
           },
           {
             "evseid": "DE*666*E1000264",
-            "status": "Faulted",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -8506,78 +8711,16 @@
             "label": "Ladeseite rechts"
           }
         ],
-        "connectors_free": 1,
+        "connectors_free": 2,
         "address": {
           "city": "Mallersdorf",
           "street": "Torbogen 5",
           "zip": "84066",
           "country": "Deutschland"
         },
-        "connectors_faulted": 1,
-        "status_icon": "fi-electric-station",
-        "model": "L1900",
-        "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
-        "status_color": "#44B6AE",
-        "connectors_total": 2
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [ 13.098053, 48.803448 ]
-      },
-      "type": "Feature",
-      "properties": {
-        "status": "NoError",
-        "marker-color": "#44B6AE",
-        "uuid": "b3036ecd-f6df-4a33-86d4-6e4bca84fa79",
-        "online_status": "online",
-        "title": "Auerbach",
-        "operator": { "name": "E-Wald GmbH" },
-        "connectors": [
-          {
-            "evseid": "DE*666*E1000209",
-            "status": "Available",
-            "type": {
-              "max_phase": 3,
-              "max_power_string": "22,1 kW",
-              "socket": "Typ2/Schuko",
-              "max_volt": 230,
-              "charge_mode": "Mode 3",
-              "label": "Typ2/Schuko",
-              "max_power": 22080,
-              "max_ampere": 32
-            },
-            "id": 1414,
-            "label": "Ladeseite links"
-          },
-          {
-            "evseid": "DE*666*E1000210",
-            "status": "Occupied",
-            "type": {
-              "max_phase": 3,
-              "max_power_string": "22,1 kW",
-              "socket": "Typ2/Schuko",
-              "max_volt": 230,
-              "charge_mode": "Mode 3",
-              "label": "Typ2/Schuko",
-              "max_power": 22080,
-              "max_ampere": 32
-            },
-            "id": 1415,
-            "label": "Ladeseite rechts"
-          }
-        ],
-        "connectors_free": 1,
-        "address": {
-          "city": "Auerbach",
-          "street": "Hauptstra\u00dfe 8",
-          "zip": "94530",
-          "country": "Deutschland"
-        },
         "connectors_faulted": 0,
         "status_icon": "fi-electric-station",
-        "model": "L 1900 alt",
+        "model": "L1900",
         "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
         "status_color": "#44B6AE",
         "connectors_total": 2
@@ -8615,7 +8758,7 @@
           },
           {
             "evseid": "DE*666*E1000353",
-            "status": "Available",
+            "status": "Occupied",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -8630,10 +8773,10 @@
             "label": "Typ2 links"
           }
         ],
-        "connectors_free": 2,
+        "connectors_free": 1,
         "address": {
           "city": "Furth",
-          "street": "Landshuter Stra\u00dfe 3",
+          "street": "Landshuter Straﬂe 3",
           "zip": "84095",
           "country": "Deutschland"
         },
@@ -8740,19 +8883,19 @@
           {
             "evseid": null,
             "status": "Available",
-            "type": [ ],
+            "type": [],
             "id": 1606,
             "label": null
           },
           {
             "evseid": null,
-            "status": "Available",
-            "type": [ ],
+            "status": "Occupied",
+            "type": [],
             "id": 1607,
             "label": null
           }
         ],
-        "connectors_free": 2,
+        "connectors_free": 1,
         "address": {
           "city": "Teisnach",
           "street": "Technologiecampus 1",
@@ -8761,8 +8904,70 @@
         },
         "connectors_faulted": 0,
         "status_icon": "fi-electric-station",
-        "model": null,
-        "manufacturer": null,
+        "model": "LS-Public 12 2x2 (r3)",
+        "manufacturer": "Technagon GmbH",
+        "status_color": "#44B6AE",
+        "connectors_total": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.815981, 49.27138884 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "651ad107-878f-4bd7-b3c6-b248ab0578d9",
+        "online_status": "online",
+        "title": "Arnschwang",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000500",
+            "status": "Occupied",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Type 2",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Type 2 / 22 kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 1642,
+            "label": "Typ 2 rechts"
+          },
+          {
+            "evseid": "DE*666*E1000499",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Type 2",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Type 2 / 22 kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 1643,
+            "label": "Typ 2 links"
+          }
+        ],
+        "connectors_free": 1,
+        "address": {
+          "city": "Arnschwang",
+          "street": "Kirchgasse 10 ",
+          "zip": "93473",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "ICU EVe dual 2x22 kW",
+        "manufacturer": "ICU Charging Equipment",
         "status_color": "#44B6AE",
         "connectors_total": 2
       }
@@ -8817,7 +9022,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Deggendorf",
-          "street": "Ulrichsberger Stra\u00dfe 17",
+          "street": "Ulrichsberger Straﬂe 17",
           "zip": "94469",
           "country": "Deutschland"
         },
@@ -8844,8 +9049,8 @@
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
-            "evseid": "DE*666*E43818R0012",
-            "status": "Available",
+            "evseid": "DE*666*E1000496",
+            "status": "Occupied",
             "type": {
               "max_phase": 3,
               "max_power_string": "11,0 kW",
@@ -8860,7 +9065,7 @@
             "label": "Typ2 rechts"
           },
           {
-            "evseid": "DE*666*E43818R0011",
+            "evseid": "DE*666*E1000495",
             "status": "Available",
             "type": {
               "max_phase": 3,
@@ -8873,13 +9078,13 @@
               "max_ampere": 16
             },
             "id": 1697,
-            "label": "TYp2 links"
+            "label": "Typ2 links"
           }
         ],
-        "connectors_free": 2,
+        "connectors_free": 1,
         "address": {
           "city": "Deggendorf",
-          "street": "Hans-Obser-Stra\u00dfe",
+          "street": "Hans-Obser-Straﬂe",
           "zip": "94469",
           "country": "Deutschland"
         },
@@ -8906,7 +9111,7 @@
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
-            "evseid": "DE*666*E43818R0052",
+            "evseid": "DE*666*E1000494",
             "status": "Available",
             "type": {
               "max_phase": 3,
@@ -8922,53 +9127,7 @@
             "label": "Typ2 rechts"
           },
           {
-            "evseid": "DE*666*E43818R0051",
-            "status": "Available",
-            "type": {
-              "max_phase": 3,
-              "max_power_string": "22,1 kW",
-              "socket": "Type 2",
-              "max_volt": 230,
-              "charge_mode": "Mode 3",
-              "label": "Type 2 / 22 kW",
-              "max_power": 22080,
-              "max_ampere": 32
-            },
-            "id": 1699,
-            "label": "Typ2 links"
-          }
-        ],
-        "connectors_free": 2,
-        "address": {
-          "city": "Deggendorf",
-          "street": "Hans-Obser-Stra\u00dfe",
-          "zip": "94469",
-          "country": "Deutschland"
-        },
-        "connectors_faulted": 0,
-        "status_icon": "fi-electric-station",
-        "model": "EVe 2x11 kW",
-        "manufacturer": "ICU",
-        "status_color": "#44B6AE",
-        "connectors_total": 2
-      }
-    },
-    {
-      "geometry": {
-        "type": "Point",
-        "coordinates": [ 13.003637, 49.025912 ]
-      },
-      "type": "Feature",
-      "properties": {
-        "status": "NoError",
-        "marker-color": "#44B6AE",
-        "uuid": "774d9d5c-a03e-4fab-93cb-9cb47fdb72c9",
-        "online_status": "online",
-        "title": "Teisnach , Technologiecampus Parkplatz",
-        "operator": { "name": "E-Wald GmbH" },
-        "connectors": [
-          {
-            "evseid": "DE*666*E1000372",
+            "evseid": "DE*666*E1000493",
             "status": "Available",
             "type": {
               "max_phase": 3,
@@ -8980,36 +9139,20 @@
               "max_power": 11040,
               "max_ampere": 16
             },
-            "id": 1702,
-            "label": "Typ2 rechts"
-          },
-          {
-            "evseid": "DE*666*E1000371",
-            "status": "Available",
-            "type": {
-              "max_phase": 3,
-              "max_power_string": "22,1 kW",
-              "socket": "Type 2",
-              "max_volt": 230,
-              "charge_mode": "Mode 3",
-              "label": "Type 2 / 22 kW",
-              "max_power": 22080,
-              "max_ampere": 32
-            },
-            "id": 1703,
+            "id": 1699,
             "label": "Typ2 links"
           }
         ],
         "connectors_free": 2,
         "address": {
-          "city": "Teisnach",
-          "street": "Technologiecampus 1",
-          "zip": "94244",
+          "city": "Deggendorf",
+          "street": "Hans-Obser-Straﬂe",
+          "zip": "94469",
           "country": "Deutschland"
         },
         "connectors_faulted": 0,
         "status_icon": "fi-electric-station",
-        "model": "EVe 22kW/11kW",
+        "model": "EVe 2x11 kW",
         "manufacturer": "ICU",
         "status_color": "#44B6AE",
         "connectors_total": 2
@@ -9030,7 +9173,7 @@
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
-            "evseid": "DE*666*E41966R001",
+            "evseid": "DE*666*E1000498",
             "status": "Occupied",
             "type": {
               "max_phase": 3,
@@ -9046,7 +9189,7 @@
             "label": "Typ2 rechts"
           },
           {
-            "evseid": "DE*666*E41966R001",
+            "evseid": "DE*666*E1000497",
             "status": "Available",
             "type": {
               "max_phase": 3,
@@ -9065,7 +9208,7 @@
         "connectors_free": 1,
         "address": {
           "city": "Parsberg",
-          "street": "Schlo\u00dfgartenstra\u00dfe 7",
+          "street": "Schloﬂgartenstraﬂe 7",
           "zip": "92331",
           "country": "Deutschland"
         },
@@ -9073,6 +9216,68 @@
         "status_icon": "fi-electric-station",
         "model": "ICU EVe 22 kW",
         "manufacturer": "ICU Charging Equipment",
+        "status_color": "#44B6AE",
+        "connectors_total": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 13.481063, 48.614233 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "99f68997-77ed-4778-bd88-dbc853ada010",
+        "online_status": "online",
+        "title": "Salzweg",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000182",
+            "status": "Occupied",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "11,0 kW",
+              "socket": "Typ2 11kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2 11kW",
+              "max_power": 11040,
+              "max_ampere": 16
+            },
+            "id": 1848,
+            "label": "Typ2 rechts"
+          },
+          {
+            "evseid": "DE*666*E1000181",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "11,0 kW",
+              "socket": "Typ2 11kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2 11kW",
+              "max_power": 11040,
+              "max_ampere": 16
+            },
+            "id": 1849,
+            "label": "Typ2 links"
+          }
+        ],
+        "connectors_free": 1,
+        "address": {
+          "city": "Salzweg",
+          "street": "Passauer Straﬂe 44",
+          "zip": "94121",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "LSP7T 11kW/11kW",
+        "manufacturer": "Technagon GmbH",
         "status_color": "#44B6AE",
         "connectors_total": 2
       }
@@ -9155,7 +9360,7 @@
         "connectors": [
           {
             "evseid": "DE*666*E1000231",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -9186,7 +9391,7 @@
             "label": "Ladeseite rechts"
           }
         ],
-        "connectors_free": 1,
+        "connectors_free": 2,
         "address": {
           "city": "Regen",
           "street": "Bahnhof 1",
@@ -9313,7 +9518,7 @@
         "connectors_free": 1,
         "address": {
           "city": "Geiersthal",
-          "street": "Rathausstra\u00dfe 5",
+          "street": "Rathausstraﬂe 5",
           "zip": "94244",
           "country": "Deutschland"
         },
@@ -9357,7 +9562,7 @@
           },
           {
             "evseid": "DE*666*E1000282",
-            "status": "Occupied",
+            "status": "Available",
             "type": {
               "max_phase": 3,
               "max_power_string": "22,1 kW",
@@ -9372,10 +9577,10 @@
             "label": "Ladeseite rechts"
           }
         ],
-        "connectors_free": 1,
+        "connectors_free": 2,
         "address": {
           "city": "Bischofsmais",
-          "street": "Hauptstra\u00dfe 34",
+          "street": "Hauptstraﬂe 34",
           "zip": "94253",
           "country": "Deutschland"
         },
@@ -9437,7 +9642,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Roding",
-          "street": "Adolf Kolping Stra\u00dfe 1",
+          "street": "Adolf Kolping Straﬂe 1",
           "zip": "93426",
           "country": "Deutschland"
         },
@@ -9477,13 +9682,13 @@
               "max_ampere": 32
             },
             "id": 2287,
-            "label": "Schuko / Typ2"
+            "label": "Typ2"
           }
         ],
         "connectors_free": 1,
         "address": {
           "city": "Burghausen",
-          "street": "Marktler Stra\u00dfe",
+          "street": "Marktler Straﬂe",
           "zip": "84489 ",
           "country": "Deutschland"
         },
@@ -9498,61 +9703,61 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 12.714991, 49.023894 ]
+        "coordinates": [ 12.575793, 48.885426 ]
       },
       "type": "Feature",
       "properties": {
         "status": "NoError",
         "marker-color": "#44B6AE",
-        "uuid": "4af83b68-6df4-4e7f-8570-33cccc3f6e8e",
+        "uuid": "295046e3-8dea-4246-856c-f6a94d6fd8ba",
         "online_status": "online",
-        "title": "Haibach-Elisabethzell",
+        "title": "Straubing Veefil",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
-            "evseid": "DE*666*E1000271",
+            "evseid": "DE*666*E1000384",
             "status": "Available",
             "type": {
               "max_phase": 3,
-              "max_power_string": "22,1 kW",
-              "socket": "Typ2/Schuko",
+              "max_power_string": "44,2 kW",
+              "socket": "CHAdeMO",
               "max_volt": 230,
-              "charge_mode": "Mode 3",
-              "label": "Typ2/Schuko",
-              "max_power": 22080,
-              "max_ampere": 32
+              "charge_mode": "Mode 4",
+              "label": "CHAdeMO",
+              "max_power": 44160,
+              "max_ampere": 64
             },
-            "id": 2314,
-            "label": "Ladeseite links"
+            "id": 2296,
+            "label": "CHAdeMO"
           },
           {
-            "evseid": "DE*666*E1000272",
+            "evseid": "DE*666*E1000383",
             "status": "Available",
             "type": {
               "max_phase": 3,
-              "max_power_string": "22,1 kW",
-              "socket": "Typ2/Schuko",
+              "max_power_string": "44,2 kW",
+              "socket": "CCS",
               "max_volt": 230,
-              "charge_mode": "Mode 3",
-              "label": "Typ2/Schuko",
-              "max_power": 22080,
-              "max_ampere": 32
+              "charge_mode": "Mode 4",
+              "label": "CCS",
+              "max_power": 44160,
+              "max_ampere": 64
             },
-            "id": 2315,
-            "label": "Ladeseite rechts"
+            "id": 2297,
+            "label": "CCS"
           }
         ],
         "connectors_free": 2,
         "address": {
-          "city": "Haibach",
-          "street": "Schulstra\u00dfe 1",
-          "zip": "94353",
+          "city": "Straubing",
+          "street": "Parkplatz Donaugasse",
+          "zip": "94315",
           "country": "Deutschland"
         },
         "connectors_faulted": 0,
         "status_icon": "fi-electric-station",
-        "model": "L1900",
-        "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
+        "model": "veefil Dual 50kW",
+        "manufacturer": "Tritium Pty Ltd",
         "status_color": "#44B6AE",
         "connectors_total": 2
       }
@@ -9560,47 +9765,125 @@
     {
       "geometry": {
         "type": "Point",
-        "coordinates": [ 12.832988, 48.15892 ]
+        "coordinates": [ 13.1915634, 48.6299341 ]
       },
       "type": "Feature",
       "properties": {
         "status": "NoError",
         "marker-color": "#44B6AE",
-        "uuid": "1d222725-c8ca-43e1-8296-03e6a1476f8d",
+        "uuid": "f528c253-8c56-449f-aed0-9ec8e2b21188",
         "online_status": "online",
-        "title": "Burghausen Stadtplatz",
+        "title": "Vilshofen Veefil",
         "operator": { "name": "E-Wald GmbH" },
         "connectors": [
           {
-            "evseid": "DE*666*E1000388",
+            "evseid": "DE*666*E1000382",
             "status": "Available",
             "type": {
               "max_phase": 3,
-              "max_power_string": "22,1 kW",
-              "socket": "Typ 2 22kW",
+              "max_power_string": "44,2 kW",
+              "socket": "CHAdeMO",
               "max_volt": 230,
-              "charge_mode": "Mode 3",
-              "label": "Typ 2 22kW",
-              "max_power": 22080,
-              "max_ampere": 32
+              "charge_mode": "Mode 4",
+              "label": "CHAdeMO",
+              "max_power": 44160,
+              "max_ampere": 64
             },
-            "id": 2351,
-            "label": "Schuko / Typ2"
+            "id": 2302,
+            "label": "CHAdeMO"
+          },
+          {
+            "evseid": "DE*666*E1000381",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "44,2 kW",
+              "socket": "CCS",
+              "max_volt": 230,
+              "charge_mode": "Mode 4",
+              "label": "CCS",
+              "max_power": 44160,
+              "max_ampere": 64
+            },
+            "id": 2303,
+            "label": "CCS"
           }
         ],
-        "connectors_free": 1,
+        "connectors_free": 2,
         "address": {
-          "city": "Burghausen",
-          "street": "Stadtplatz 48",
-          "zip": "84489 ",
+          "city": "Vilshofen ",
+          "street": "Bahnhofstraﬂe 4",
+          "zip": "94474",
           "country": "Deutschland"
         },
         "connectors_faulted": 0,
         "status_icon": "fi-electric-station",
-        "model": "W900",
-        "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
+        "model": "veefil Dual 50kW",
+        "manufacturer": "Tritium Pty Ltd",
         "status_color": "#44B6AE",
-        "connectors_total": 1
+        "connectors_total": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.517487, 49.198259 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "27ca0cb6-b0a2-4c81-b1eb-c087b6e35160",
+        "online_status": "online",
+        "title": "Roding Veefil",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000380",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "50,0 kW",
+              "socket": "CCS",
+              "max_volt": 500,
+              "charge_mode": "Mode 4",
+              "label": "CCS 50kW",
+              "max_power": 50000,
+              "max_ampere": 100
+            },
+            "id": 2308,
+            "label": "CHAdeMO"
+          },
+          {
+            "evseid": "DE*666*E1000379",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "44,2 kW",
+              "socket": "CCS",
+              "max_volt": 230,
+              "charge_mode": "Mode 4",
+              "label": "CCS",
+              "max_power": 44160,
+              "max_ampere": 64
+            },
+            "id": 2309,
+            "label": "CCS"
+          }
+        ],
+        "connectors_free": 2,
+        "address": {
+          "city": "Roding",
+          "street": "Jahnstraﬂe 21",
+          "zip": "93426",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "veefil Dual 50kW",
+        "manufacturer": "Tritium Pty Ltd",
+        "status_color": "#44B6AE",
+        "connectors_total": 2
       }
     },
     {
@@ -9653,7 +9936,7 @@
         "connectors_free": 2,
         "address": {
           "city": "Schwandorf",
-          "street": "Ettmansdorfer Stra\u00dfe 17",
+          "street": "Ettmansdorfer Straﬂe 17",
           "zip": "92421",
           "country": "Deutschland"
         },
@@ -9661,6 +9944,1528 @@
         "status_icon": "fi-electric-station",
         "model": "VE-Public 46 11kW/11kW",
         "manufacturer": "VENIOX GmbH & Co. KG",
+        "status_color": "#44B6AE",
+        "connectors_total": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 13.077668, 48.722909 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "10093630-0a73-40f1-9cfc-1cdc9b53bb6f",
+        "online_status": "online",
+        "title": "Winzer",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000486",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2743,
+            "label": "Typ2"
+          }
+        ],
+        "connectors_free": 1,
+        "address": {
+          "city": "Winzer",
+          "street": "Pledlstraﬂe 1",
+          "zip": "94577",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "W900",
+        "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
+        "status_color": "#44B6AE",
+        "connectors_total": 1
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 13.004257, 49.025583 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "0448a33a-cbcb-43a0-bf60-fdb1e6869992",
+        "online_status": "online",
+        "title": "Hengersberg ",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000438",
+            "status": "Unavailable",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2744,
+            "label": "Typ2"
+          }
+        ],
+        "connectors_free": 0,
+        "address": {
+          "city": "Hengersberg",
+          "street": "Passauer Straﬂe",
+          "zip": "94491",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 1,
+        "status_icon": "fi-electric-station",
+        "model": "W900",
+        "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
+        "status_color": "#44B6AE",
+        "connectors_total": 1
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.977733, 49.048963 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "ec78ed54-2614-4848-9260-269fd2a935c8",
+        "online_status": "online",
+        "title": "Geiersthal",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000470",
+            "status": "Unavailable",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2749,
+            "label": "Typ2"
+          }
+        ],
+        "connectors_free": 0,
+        "address": {
+          "city": "Geiersthal",
+          "street": "Rathausstraﬂe 5",
+          "zip": "94244",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 1,
+        "status_icon": "fi-electric-station",
+        "model": "W900",
+        "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
+        "status_color": "#44B6AE",
+        "connectors_total": 1
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 13.004257, 49.025583 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "f91f5d90-c916-4e29-92ea-a2852c20f5d8",
+        "online_status": "online",
+        "title": "Mitterfels",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000477",
+            "status": "Unavailable",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2750,
+            "label": "Typ2"
+          }
+        ],
+        "connectors_free": 0,
+        "address": {
+          "city": "Mitterfels",
+          "street": "Burgstraﬂe 34",
+          "zip": "94360",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 1,
+        "status_icon": "fi-electric-station",
+        "model": "W900",
+        "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
+        "status_color": "#44B6AE",
+        "connectors_total": 1
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.306779, 47.991667 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "ab3eab4c-b2b2-4e82-a497-f8f92dee9259",
+        "online_status": "online",
+        "title": "Amerang",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1100013",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2781,
+            "label": "Typ2 links"
+          },
+          {
+            "evseid": "DE*666*E1100014",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 2",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 2782,
+            "label": "Schuko links"
+          },
+          {
+            "evseid": "DE*666*E1100015",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2783,
+            "label": "Typ2 rechts"
+          },
+          {
+            "evseid": "DE*666*E1100016",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 2",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 2784,
+            "label": "Schuko rechts"
+          }
+        ],
+        "connectors_free": 4,
+        "address": {
+          "city": "Amerang",
+          "street": "Schulgasse 3",
+          "zip": "83123",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "LSP7B Swarco",
+        "manufacturer": "Technagon GmbH",
+        "status_color": "#44B6AE",
+        "connectors_total": 4
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.393994, 47.719678 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "fa03e7c3-e812-463b-8f68-caa152e982cc",
+        "online_status": "online",
+        "title": "Schleching",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1100017",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2785,
+            "label": "Typ2 links"
+          },
+          {
+            "evseid": "DE*666*E1100018",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 2",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 2786,
+            "label": "Schuko links"
+          },
+          {
+            "evseid": "DE*666*E1100019",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2787,
+            "label": "Typ2 rechts"
+          },
+          {
+            "evseid": "DE*666*E1100020",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 2",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 2788,
+            "label": "Schuko rechts"
+          }
+        ],
+        "connectors_free": 4,
+        "address": {
+          "city": "Schleching",
+          "street": "Schulstrasse 4",
+          "zip": "83259",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "LSP7B Swarco",
+        "manufacturer": "Technagon GmbH",
+        "status_color": "#44B6AE",
+        "connectors_total": 4
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.590313, 47.805209 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "5c315f4c-fffd-4a5e-821e-1bab3892d29f",
+        "online_status": "online",
+        "title": "Bergen",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1100021",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2791,
+            "label": "Typ2 links"
+          },
+          {
+            "evseid": "DE*666*E1100022",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 2",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 2792,
+            "label": "Schuko links"
+          },
+          {
+            "evseid": "DE*666*E1100023",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2793,
+            "label": "Typ2 rechts"
+          },
+          {
+            "evseid": "DE*666*E1100024",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 2",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 2794,
+            "label": "Schuko rechts"
+          }
+        ],
+        "connectors_free": 4,
+        "address": {
+          "city": "Bergen",
+          "street": "Hochfellnstrasse 14",
+          "zip": "83346",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "LSP7B Swarco",
+        "manufacturer": "Technagon GmbH",
+        "status_color": "#44B6AE",
+        "connectors_total": 4
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 11.79923, 47.857906 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "2f61478e-0b7a-4074-a419-ffba7102fb20",
+        "online_status": "online",
+        "title": "Weyarn",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1100026",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko CEE7/4",
+              "max_volt": 230,
+              "charge_mode": "Mode 1",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 2803,
+            "label": "Schuko links"
+          },
+          {
+            "evseid": "DE*666*E1100025",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Type 2",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Type 2 / 22 kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2804,
+            "label": "Typ2 links"
+          },
+          {
+            "evseid": "DE*666*E1100027",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Type 2",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Type 2 / 22 kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2805,
+            "label": "Typ2 rechts"
+          },
+          {
+            "evseid": "DE*666*E1100028",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko CEE7/4",
+              "max_volt": 230,
+              "charge_mode": "Mode 1",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 2833,
+            "label": "Schuko rechts"
+          }
+        ],
+        "connectors_free": 4,
+        "address": {
+          "city": "Weyarn",
+          "street": "Ignaz G¸nther Strasse 1",
+          "zip": "83629",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "LSP7B Swarco",
+        "manufacturer": "Technagon GmbH",
+        "status_color": "#44B6AE",
+        "connectors_total": 4
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.4851, 47.83657 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "64276cbd-21e9-4ed7-912d-b0c5a93bed81",
+        "online_status": "online",
+        "title": "‹bersee",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1100005",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2810,
+            "label": "Typ2 links"
+          },
+          {
+            "evseid": "DE*666*E1100006",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 2",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 2811,
+            "label": "Schuko links"
+          },
+          {
+            "evseid": "DE*666*E1100007",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2812,
+            "label": "Typ2 rechts"
+          },
+          {
+            "evseid": "DE*666*E1100008",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 2",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 2813,
+            "label": "Schuko rechts"
+          }
+        ],
+        "connectors_free": 4,
+        "address": {
+          "city": "‹bersee",
+          "street": "Greimelstrasse 31",
+          "zip": "83236",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "LSP7B Swarco",
+        "manufacturer": "Technagon GmbH",
+        "status_color": "#44B6AE",
+        "connectors_total": 4
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.230907, 47.931451 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "1bf4b666-ebbe-4a91-8cac-089c81864f1c",
+        "online_status": "online",
+        "title": "Sˆchtenau",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1100010",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 2",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 2820,
+            "label": "Schuko links"
+          },
+          {
+            "evseid": "DE*666*E1100009",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2821,
+            "label": "Typ2 links"
+          },
+          {
+            "evseid": "DE*666*E1100011",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2822,
+            "label": "Typ2 rechts"
+          },
+          {
+            "evseid": "DE*666*E1100012",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 2",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 2823,
+            "label": "Schuko rechts"
+          }
+        ],
+        "connectors_free": 4,
+        "address": {
+          "city": "Sˆchtenau",
+          "street": "Dorfplatz 3",
+          "zip": "83139",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "LSP7B Swarco",
+        "manufacturer": "Technagon GmbH",
+        "status_color": "#44B6AE",
+        "connectors_total": 4
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.457849, 47.734779 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "145b444c-233b-42e4-8d92-2bc5cc9349b7",
+        "online_status": "online",
+        "title": "Unterwoessen",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1100001",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Type 2",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Type 2 / 22 kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2824,
+            "label": "Typ2 links"
+          },
+          {
+            "evseid": "DE*666*E1100002",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko CEE7/4",
+              "max_volt": 230,
+              "charge_mode": "Mode 1",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 2825,
+            "label": "Schuko links"
+          },
+          {
+            "evseid": "DE*666*E1100003",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Type 2",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Type 2 / 22 kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2826,
+            "label": "Typ2 rechts"
+          },
+          {
+            "evseid": "DE*666*E1100004",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko CEE7/4",
+              "max_volt": 230,
+              "charge_mode": "Mode 1",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 2827,
+            "label": "Schuko rechts"
+          }
+        ],
+        "connectors_free": 4,
+        "address": {
+          "city": "Unterwˆssen",
+          "street": "Hauptstraﬂe 64",
+          "zip": "83246",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "LSP7B Swarco",
+        "manufacturer": "Technagon GmbH",
+        "status_color": "#44B6AE",
+        "connectors_total": 4
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.111017, 48.112124 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "f0d2e612-a840-4447-b0fe-09773bc829dc",
+        "online_status": "online",
+        "title": "Albaching",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1100029",
+            "status": "Occupied",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "CCS",
+              "max_volt": 230,
+              "charge_mode": "Mode 4",
+              "label": "CCS 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2842,
+            "label": "CCS"
+          },
+          {
+            "evseid": "DE*666*E1100030",
+            "status": "Unavailable",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "20,0 kW",
+              "socket": "CHAdeMO",
+              "max_volt": 200,
+              "charge_mode": "Mode 4",
+              "label": "CHAdeMO 20 kW",
+              "max_power": 20000,
+              "max_ampere": 100
+            },
+            "id": 2843,
+            "label": "CHAdeMO"
+          },
+          {
+            "evseid": "DE*666*E1100031",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2844,
+            "label": "Typ2"
+          }
+        ],
+        "connectors_free": 1,
+        "address": {
+          "city": "Albaching",
+          "street": "Hohenlindener Straﬂe 7",
+          "zip": "83544",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 1,
+        "status_icon": "fi-electric-station",
+        "model": "@flex triple",
+        "manufacturer": "e8energy",
+        "status_color": "#44B6AE",
+        "connectors_total": 3
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.20823, 47.836911 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "e9c57a49-079f-48f1-a1de-a94a81afebb8",
+        "online_status": "online",
+        "title": "Riedering",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1100032",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "CCS",
+              "max_volt": 230,
+              "charge_mode": "Mode 4",
+              "label": "CCS 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2845,
+            "label": "CCS"
+          },
+          {
+            "evseid": "DE*666*E1100033",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2846,
+            "label": "Typ2"
+          },
+          {
+            "evseid": "DE*666*E1100032",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "20,0 kW",
+              "socket": "CHAdeMO",
+              "max_volt": 200,
+              "charge_mode": "Mode 4",
+              "label": "CHAdeMO 20 kW",
+              "max_power": 20000,
+              "max_ampere": 100
+            },
+            "id": 2847,
+            "label": "CHAdeMO"
+          }
+        ],
+        "connectors_free": 3,
+        "address": {
+          "city": "Riedering",
+          "street": "Sˆllhubener Straﬂe 6",
+          "zip": "83083",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "@flex triple",
+        "manufacturer": "e8energy",
+        "status_color": "#44B6AE",
+        "connectors_total": 3
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.862116, 49.175797 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "b8a73257-7acc-485a-9466-1ecb4c9b090f",
+        "online_status": "online",
+        "title": "Frauenau links",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000421",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ2/Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2/Schuko",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2859,
+            "label": "Ladeseite links"
+          },
+          {
+            "evseid": "DE*666*E1000422",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ2/Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2/Schuko",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2860,
+            "label": "Ladeseite rechts"
+          }
+        ],
+        "connectors_free": 2,
+        "address": {
+          "city": "Frauenau",
+          "street": "Am Museumspark 1",
+          "zip": "94258",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "L1900",
+        "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
+        "status_color": "#44B6AE",
+        "connectors_total": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 13.141436, 48.843613 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "26cbfc51-24ab-46da-a8c8-8e3ac73e0687",
+        "online_status": "online",
+        "title": "Lalling rechts",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000419",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ2/Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2/Schuko",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2865,
+            "label": "Ladeseite links"
+          },
+          {
+            "evseid": "DE*666*E1000420",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ2/Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2/Schuko",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2866,
+            "label": "Ladeseite rechts"
+          }
+        ],
+        "connectors_free": 2,
+        "address": {
+          "city": "Lalling",
+          "street": "Pfarrweg 5",
+          "zip": "94551",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "L1900",
+        "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
+        "status_color": "#44B6AE",
+        "connectors_total": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 13.1279, 48.9682 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "7fde7d17-2b77-45d8-b42b-ee1a5eec3ac7",
+        "online_status": "online",
+        "title": "Regen Landwirtschaftsmuseum rechts",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000413",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ2/Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2/Schuko",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2867,
+            "label": "Ladeseite links"
+          },
+          {
+            "evseid": "DE*666*E1000414",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ2/Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2/Schuko",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2868,
+            "label": "Ladeseite rechts"
+          }
+        ],
+        "connectors_free": 2,
+        "address": {
+          "city": "Regen",
+          "street": "Schulgasse 2-8",
+          "zip": "94209",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "L1900",
+        "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
+        "status_color": "#44B6AE",
+        "connectors_total": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.5475, 47.8422 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "10812cf9-6fbe-489c-99c7-7484bb7d47b7",
+        "online_status": "online",
+        "title": "Grabenst‰tt",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1100035",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2869,
+            "label": "Typ2 links"
+          },
+          {
+            "evseid": "DE*666*E1100036",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 2",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 2870,
+            "label": "Schuko links "
+          },
+          {
+            "evseid": "DE*666*E1100037",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ 2 22kW",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ 2 22kW",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2896,
+            "label": "Typ2 rechts"
+          },
+          {
+            "evseid": "DE*666*E1100038",
+            "status": "Available",
+            "type": {
+              "max_phase": 1,
+              "max_power_string": "3,7 kW",
+              "socket": "Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 2",
+              "label": "Schuko",
+              "max_power": 3680,
+              "max_ampere": 16
+            },
+            "id": 2897,
+            "label": "Schuko rechts"
+          }
+        ],
+        "connectors_free": 4,
+        "address": {
+          "city": "Grabenst‰tt",
+          "street": "Schlossstraﬂe 17",
+          "zip": "83355",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "LSP7B Swarco",
+        "manufacturer": "Technagon GmbH",
+        "status_color": "#44B6AE",
+        "connectors_total": 4
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.358656, 48.448838 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#000000",
+        "uuid": null,
+        "online_status": "unmanaged",
+        "title": "Vilsbiburg Georgenstraﬂe",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [],
+        "connectors_free": 0,
+        "address": {
+          "city": "Vilsbiburg",
+          "street": "Georgenstr. 1",
+          "zip": "94078",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "Mennekes Basic S",
+        "manufacturer": "Mennekes",
+        "status_color": "#000000",
+        "connectors_total": 0
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.3530047, 48.448816 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#000000",
+        "uuid": null,
+        "online_status": "unmanaged",
+        "title": "Vilsbiburg F‰rberanger",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [],
+        "connectors_free": 0,
+        "address": {
+          "city": "Vilsbiburg",
+          "street": "F‰rberanger",
+          "zip": "84137",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "Mennekes Basic S",
+        "manufacturer": "Mennekes",
+        "status_color": "#000000",
+        "connectors_total": 0
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.960984, 48.751616 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "cf8b4098-cb8b-4e54-bcc4-58226b2a8795",
+        "online_status": "online",
+        "title": "Moos links",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000423",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ2/Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2/Schuko",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2873,
+            "label": "Ladeseite links"
+          },
+          {
+            "evseid": "DE*666*E1000424",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ2/Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2/Schuko",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2874,
+            "label": "Ladeseite rechts"
+          }
+        ],
+        "connectors_free": 2,
+        "address": {
+          "city": "Moos",
+          "street": "Graf Ulrich Philipp Platz 1",
+          "zip": "94554",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "L1900",
+        "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
+        "status_color": "#44B6AE",
+        "connectors_total": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.80916, 48.9144444 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "cb7b72d2-9649-4e6c-b712-3cf7c422018c",
+        "online_status": "online",
+        "title": "Schwarzach",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000251",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ2/Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2/Schuko",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2890,
+            "label": "Ladeseite links"
+          },
+          {
+            "evseid": "DE*666*E1000252",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ2/Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2/Schuko",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2891,
+            "label": "Ladeseite rechts"
+          }
+        ],
+        "connectors_free": 2,
+        "address": {
+          "city": "Schwarzach",
+          "street": "Schulgasse 4",
+          "zip": "94374",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "L1900",
+        "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
+        "status_color": "#44B6AE",
+        "connectors_total": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 12.820273, 48.998492 ]
+      },
+      "type": "Feature",
+      "properties": {
+        "status": "NoError",
+        "marker-color": "#44B6AE",
+        "uuid": "9317ea15-7eee-40df-a84a-b4c6c8b4f499",
+        "online_status": "online",
+        "title": "Sankt Englmar links",
+        "operator": { "name": "E-Wald GmbH" },
+        "connectors": [
+          {
+            "evseid": "DE*666*E1000415",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ2/Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2/Schuko",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2898,
+            "label": "Ladeseite links"
+          },
+          {
+            "evseid": "DE*666*E1000416",
+            "status": "Available",
+            "type": {
+              "max_phase": 3,
+              "max_power_string": "22,1 kW",
+              "socket": "Typ2/Schuko",
+              "max_volt": 230,
+              "charge_mode": "Mode 3",
+              "label": "Typ2/Schuko",
+              "max_power": 22080,
+              "max_ampere": 32
+            },
+            "id": 2899,
+            "label": "Ladeseite rechts"
+          }
+        ],
+        "connectors_free": 2,
+        "address": {
+          "city": "Sankt Englmar",
+          "street": "Bayerweg 7    (Kurpark)",
+          "zip": "94379",
+          "country": "Deutschland"
+        },
+        "connectors_faulted": 0,
+        "status_icon": "fi-electric-station",
+        "model": "L1900",
+        "manufacturer": "ROHDE & SCHWARZ GmbH & Co. KG",
         "status_color": "#44B6AE",
         "connectors_total": 2
       }
