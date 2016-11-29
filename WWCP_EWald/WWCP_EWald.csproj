@@ -7,8 +7,8 @@
     <ProjectGuid>{FCDE565A-FB4B-4D44-A667-D4BAB7FFF7BA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WWCP_EWald</RootNamespace>
-    <AssemblyName>WWCP_EWald</AssemblyName>
+    <RootNamespace>org.GraphDefined.WWCP.EWald</RootNamespace>
+    <AssemblyName>org.GraphDefined.WWCP.EWald</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -22,7 +22,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>..\..\WWCP_Core\WWCP.ruleset</CodeAnalysisRuleSet>
-    <DocumentationFile>bin\Debug\WWCP_EWald.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\org.GraphDefined.WWCP.EWald.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -81,7 +81,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="EWald.geojson" />
+    <None Include="chargers_2016-08-17.geojson">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="chargers_2016-11-29.geojson">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
